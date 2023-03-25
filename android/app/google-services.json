@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "736961869771",
+    "project_id": "astromancygarden-30f3e",
+    "storage_bucket": "astromancygarden-30f3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736961869771:android:78ca5c4d09e187daf3284e",
+        "android_client_info": {
+          "package_name": "com.fisis.fortune.app.fortunetell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736961869771-u3sfidoqlgkv3e23djkc44hv0u386u9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ3DWUcNegscAOvW1kqQsRq71BjyLqBgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736961869771-u3sfidoqlgkv3e23djkc44hv0u386u9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
