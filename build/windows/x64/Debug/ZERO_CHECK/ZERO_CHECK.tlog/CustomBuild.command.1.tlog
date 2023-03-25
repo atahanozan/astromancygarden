@@ -1,0 +1,10 @@
+^C:\USERS\TREMGLOBAL78\DESKTOP\OZAN_PROJELER\FORTUNETELL\BUILD\WINDOWS\CMAKEFILES\E1447058EB3E840CF37F5D330DB58462\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Tremglobal78/Desktop/ozan_projeler/fortunetell/windows -BC:/Users/Tremglobal78/Desktop/ozan_projeler/fortunetell/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Tremglobal78/Desktop/ozan_projeler/fortunetell/build/windows/fortunetell.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

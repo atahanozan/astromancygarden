@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dk.kjeldsen.scheduled_notifications"
+4    android:versionCode="1"
+5    android:versionName="0.0.1" >
+6
+7    <uses-sdk
+7-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:8:5-10:40
+8        android:minSdkVersion="16"
+8-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:9:9-35
+9        android:targetSdkVersion="16" />
+9-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:10:9-38
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:6:5-81
+11-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:6:22-78
+12
+13    <application>
+13-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:12:5-20:19
+14        <receiver android:name="dk.kjeldsen.scheduled_notifications.OnRebootReceiver" >
+14-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:13:9-17:20
+14-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:13:19-51
+15            <intent-filter>
+15-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:14:13-16:29
+16                <action android:name="android.intent.action.BOOT_COMPLETED" />
+16-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:15:17-78
+16-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:15:25-76
+17            </intent-filter>
+18        </receiver>
+19
+20        <service android:name="dk.kjeldsen.scheduled_notifications.ScheduleNotificationsService" />
+20-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:19:9-64
+20-->C:\flutter_windows_3.3.3-stable\flutter\.pub-cache\hosted\pub.dartlang.org\scheduled_notifications-1.0.0\android\src\main\AndroidManifest.xml:19:18-62
+21    </application>
+22
+23</manifest>

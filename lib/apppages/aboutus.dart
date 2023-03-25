@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AboutUs extends StatefulWidget {
-  const AboutUs({super.key});
+  const AboutUs({Key? key}) : super(key: key);
 
   @override
   State<AboutUs> createState() => _AboutUsState();
@@ -12,9 +12,10 @@ class AboutUs extends StatefulWidget {
 
 class _AboutUsState extends State<AboutUs> {
   Future<void> _launchInWebViewOrVC(Uri url) async {
-    if (!await launchUrl(
+    if (await launchUrl(
       url,
-      mode: LaunchMode.inAppWebView,
+      mode: LaunchMode.platformDefault,
+      webOnlyWindowName: '_self',
       webViewConfiguration: const WebViewConfiguration(
           headers: <String, String>{'my_header_key': 'my_header_value'}),
     )) {
