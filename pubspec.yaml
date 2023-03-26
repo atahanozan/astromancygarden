@@ -85,8 +85,6 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/fal.png
-    - assets/ant.png
-    - assets/cat.png
     - assets/wishcard.png
     - assets/elephant.png
     - assets/fish.png
@@ -95,8 +93,6 @@ flutter:
     - assets/leon.png
     - assets/owl.png
     - assets/turtle.png
-    - assets/clove.png
-    - assets/clover.png
     - assets/daisy.png
     - assets/gunlukicon.png
     - assets/taroticon.png
@@ -106,8 +102,6 @@ flutter:
     - assets/ivy.png
     - assets/lavender.png
     - assets/lilac.png
-    - assets/akik.png
-    - assets/ametist.png
     - assets/kuvars.png
     - assets/moon.png
     - assets/selenyt.png
@@ -125,13 +119,11 @@ flutter:
     - assets/splash2.png
     - assets/signup.png
     - assets/enterpage.png
-    - assets/aot.jpeg
     - assets/ok.jpeg
     - assets/ya.jpg
     - assets/id.jpg
     - assets/ha.jpg
     - assets/my.jpg
-    - assets/angelico.png
     - assets/profilepic.png
     - assets/loginpage.png
     - assets/kuyu.gif

@@ -41,7 +41,7 @@ class _WishCardsPageViewState extends State<WishCardsPageView> {
       _height = 0;
       _height2 = 350;
       setState(() {
-        customnum = Random().nextInt(randomnum) + 1;
+        customnum = Random().nextInt(randomnum - 1) + 1;
       });
       FirebaseFirestore.instance
           .collection('WishCards')

@@ -6,21 +6,6 @@ Sakın unutmayın, günlük fal sadece 12 saat için geçerlidir. 12 saatin sonu
 
 """;
 
-  static String red =
-      "Bu renk ateşin, hareketliliğin ve cesaretin rengi. Bugüne başlarken derin bir nefes al çünkü söz konusu olan hem iş hem de aşk hayatın olabilir. Hırslarını kontrol etmeye dikkat etmelisin. Sakın aşırıya kaçma. Bu arada içini ısıtacak romantik gelişmelere de hazır ol.";
-
-  static String orange =
-      "Sosyalleşmenin tam zamanı. Etrafına turuncu bir enerji saçıyorsun. Maceralara atılmaktan çekinme. Bugün sosyal çevren tarafından daha çok fark edileceğin bir gün olacak.";
-  static String yellow =
-      "Etrafına neşe saçıyorsun. Enerjinin ne kadar çekici olduğunu söylemeye gerek bile yok. Bugün samimiyet kurmanın ve yakın arkadaşlarınla ilişkilerini kuvvetlendirmenin tam günü. Ayrıca bugün üstleneceğin sorumluluklardan çekinme çünkü oldukça dikkatli bir günündesin.";
-  static String green =
-      "Hareketlilikten ve aşırı beslenmeden uzak durman gereken bir gündesin. Yediklerine dikkat edip sosyallikten biraz uzaklaşmaya, kafa dinginliğine ihtiyacın var. Eğer sırf sosyal çevrenin isteği yüzünden katılman gereken etkinlikler varsa bence bunu biraz ertele. Canının istemediği her şeyden bugünlük kaçın.";
-  static String blue =
-      "Bazı insanları kaçış yeri olabilirsin. Bugün yaydığın enerji insanlarda sana güvenme ve sırlarını paylaşma hatta dertleşme isteği uyandıracak. Sakın bu durumlardan kaçmaya çalışma. Bugün arkadaşlıkların için önemli bir gün. Kendinden emin ve özgüvenli bir duruş sergilemenin tam zamanı.";
-  static String darkblue =
-      "Bugün sosyal çevrendeki bireylere sen yön vereceksin. İş hayatında da üstlerin tarafından fark edilecek, ekip arkadaşlarına ise örnek olacaksın. Profesyonel ve modern duruşunla hem sosyal çevrende hem de iş hayatında dikkatleri üzerine çekeceksin.";
-  static String purple =
-      "Gün içerisinde merak ettiğin tüm sorulara kendi kendine yanıt verirsen ya da insanlardan hiç beklemediğin bir saygı görürsen sakın şaşırma. Bugün enerji rengin Mor. Bütün bunların yanında yaratıcılığının top noktasındasın. Uzun süredir düşündüğün ancak yapamayacağın kaygısına kapıldığın tüm işlere başlamalısın.";
   static String mailsub =
       "Falcı ile iletişime geçmek için aşağıdaki formu doldurun. Falcımız en kısa sürede sizinle iletişime geçecektir. Aklınızdaki tüm sorular için falcıya ulaşabilirsiniz.";
   static String aboutus = """
@@ -90,54 +75,10 @@ Kartı seçtikten sonra Dilek Kartı sana bir dilek nesnesi ve bu nesnenin ne an
 Dilek kapıların açık olsun.
 """;
   static String klavuzdiscover = """
-Astromancy Garden Keşfet sayfasında kendi paylaşımlarınızı ve diğer kullanıcıların paylaşımlarını görebilirsiniz.
+Günlük burç yorumları, Melek sayıları, faydalı bilgiler ve çok daha fazlası,
 
-Bu paylaşımlar evrene iyi dilekleri göndermek ve bu dileklerin yerini bulmasını sağlamak için herkesin görebileceği şekilde yayınlanmaktadır.
-
-Birden fazla enerji o dileklere tesir ederse o enerjilerle birlikte dileklerin gerçekleşmesi daha da olağan bir hal alır.
+Astromancy Garden Dicovery sizin için yapıldı.
 """;
-  static String cat =
-      "Sevgi ihtiyacın bugün biraz ağır basabilir. Uzun süredir görmediğin kişilerle karşılaşabilirsin. Bu enerji ruhunu biraz acıktırabilir. Eğer çevrende bu açlığı giderebileceğin güvenli enerjiler varsa onlara sımsıkı tutun. Sevgili, aile hatta değer verdiğin bir oyuncak bile olabilir.";
-  static String leon =
-      "Bugün enerjin güçlü görünüyor. Giriştiğin işlerde erken pes etmemelisin, inan sonucuna yansıyacaktır. Liderlik yeteneklerin bugün biraz güçlenmiş. Üstlerine görünmek için bugün doğru zaman. Ama aynı zamanda karşındaki kişileri üzmediğinden emin ol. Evrendeki karmayı sakın unutma.";
-  static String ant =
-      "İçinden çalışmak geliyor. Bugün biraz daha iş odaklı bir günündesin. Yerinde duramayacağın ve sürekli hareket halinde olacağın bir gün bugün. Hatta sadece iş bile değil çıkıp gezmeyi ve arkadaşlarınla toplanıp aktiviteler yapmayı isteyebilirsin. Bunların hepsi karınca enerjisinden geliyor yani sakın korkma.";
-  static String turtle =
-      "Evde geçirdiğin süreler senin için kaliteli gelebilir. Bugün biraz evde vakit geçirmek isteyebilirsin. Özellikle kendi evin sana uzun süredir seni bekliyormuş gibi bir enerji verecek. Bugün önemli planların yoksa günü veya akşamı evde geçirmeyi bi dene. Ayrıca biraz sosyallikten sıkılmış olabilirsin. Şimdi bir günlüğüne kabuğuna çekilip dinlenme zamanı.";
-  static String fish =
-      "Duygusal bir yapıya sahip olsan da olmasan da bugün hassas bir günde olabilirsin. Başkaları tarafından biraz alıngan olduğun geri bildirimini alabilirsin. Merak etme bu sade gökyüzünde ki yıldız düzeninden kaynaklı. Bugünün duygu yoğunluğuna biraz aldırmamaya çalış. Normalde ne kadar güçlü biri olduğunu sakın unutma.";
-  static String elephant =
-      "Bereket dolu ve kazançlı bir güne başlamışsın. Ayrıca bahtın ve kısmetin biraz yüksek. Her anlamda kazançlı olabileceğin bir gün. Bugün için uzun süre beklemiş olabilirsin ancak beklemene değecek güzel haberler ve teklifler alabilirsin. Gün içerisinde gülümsemeni sakın yüzünden eksik etme.";
-  static String owl =
-      "Gün içerisinde hayatın veya işinle ilgili aldığın kararların doğruluğu seni bile şaşırtabilir. Bilgelik enerjisiyle yıkanıyorsun. Olgun tavırlarınla, normalde ne kadar çocuksu olsan da etrafındakileri şaşırtmayı başaracaksın. Bazı şeyleri uzun uzun düşünmektense içgüdülerine güvenip hareket etmen daha doğru olabilir.";
-  static String clover =
-      "Yoncanın şans enerjisi taşıdığını hepimiz biliriz. Ancak bu bitkinin bilmediğimiz daha bir çok enerjisi var. Gün içerisinde şansın oldukça yüksek olacak ancak aynı zamanda kötülüklere karşı bir altıncı his ve aşka olan yolculukta ise gerçek bir partner bulma ya da bulduğun partnerle olan ilişkilerini güçlendirebileceğin bir gündesin. Bugünü iyi değerlendirdiğinden mutlaka emin ol.";
-  static String daisy =
-      "Papatya enerjisi sana gün içerisinde sevgi ve mutluluk getirecek. Alacağın kötü kararları önleyip seni mutluluk ve sevgi yolunda ilerlemen için yönlendirecek. Bugün gelen iş ya da aşk tekliflerini iyice değerlendirmeni tavsiye ederim. Kaderinde önemli değişiklikler olabilir.";
-  static String dandelion =
-      "Karahindiba, bereketin ve aşkın enerjisini taşıyor. Bugün alacağın kazançlarda ve yapacağın işlerde bereketli bir enerji hissedebilirsin. Bunun yanı sıra kalbinden sevgi ve aşkı sakın eksiltme çünkü bu duygu bereketin dozunu oldukça artıracaktır.";
-  static String ivy =
-      "Mutluluk ve eğlence enerjisi bugün seninle olacak. Sarmaşığın coşkulu etkisini gün boyu hissedeceksin. Hatta bu enerji ile etrafındakilerin de seninle birlikte eğlenmesi için oldukça güzel bir vibe vereceksin. Ancak bugün kötü enerjilerden biraz kaçınman gerekiyor. Çünkü kötü enerjiler maddi sıkıntı yaşamana neden olabilir. Enerjinin kirlendiğini hissettiğinde gözlerini kapatıp evrene iyi enerji istediğini söylemen etkili olacaktır.";
-  static String lilac =
-      "Bugün leylak enerjisi var. Hastalıklarda uzak durman gerekiyor. Şans oyunları oynuyorsan onlara da bugün için biraz ara vermek mantıklı bir karar olabilir. Bütün çiçeklerin enerjisi ne yazık ki iyi değil. Ancak bugün içinde enerjini iyiye çekmek tamamen senin elinde. Kötü dileklerden kaçınıp evdene sadece iyi dilekler iletmen her zaman sana iyilik getirecektir.";
-  static String clove =
-      "Saf ve masum enerjin bugün etrafındaki insanlar tarafından sana olan bakış açılarında değişiklik yaratabilir. Senin hakkında kötü düşüncesi olan veya kararsız kalan kişilerde bugün güzel duygular uyandırıp onların düşüncelerinde pozitif bir etki yaratacaksın. Ayrıca biraz duygusallaşmak uygun bir gün gibi duruyor.";
-  static String lavender =
-      "Güç ve liderlik yeteneklerinin daha ağır bastığı, Sadakatinin ön plana çıktığı bir güne başladın. Lavanta çiçeğinin gücü senin de enerjini yenileyecek ve daha güçlü bir enerjiyle etrafındaki insanları pozitif anlamda daha farklı etkileyecek. Bağımsızlığının ve özgürlüğünün tadını aldığın güzel bir deneyim yaşayacaksın.";
-  static String ametist =
-      "Bugün arındırıcı ve dinlendirici enerjiler üzerine akıyor. Özellikle kaygılarından uzaklaşacağın ve Ametist taşının umursamazlık seviyeni yükselteceği rahat bir gün geçireceksin. Etrafında olan önemli olayları göz ardı etme. Tabi diğer yandan bütün olaylara bu enerji sayesinde soğukkanlılıkla yaklaşabileceğini de unutma.";
-  static String tygereye =
-      "Enerjinin savunma kanallarını açtığını hissedeceksin. Bugün kem göz ve nazara karşı bir kalkanın var. Etrafına saçtığın pozitif enerjiyle kalkanını kamufle etmeyi başaracaksın. Özellikle kıskançlık ve kötü nefse karşı dikkatli olmasan bile kendiliğinden savrulduğunu göreceksin. Yine de kötü gözlere karşı dikkatli olmak her zaman seni bir adım öne çıkaracaktır.";
-  static String akik =
-      "Bugün dert dinlemekten sakın korkma. Akik enerjisi seni negatif enerjilere karşı koruyacaktır. Ayrıca bugün takviye gıda almana bile gerek kalmadan enerjinin yükseldiğini hissedebilirsin. Kendini zorlamak ve yapmak isteyipte biraz tembelliğe kapıldığın tüm işleri rahatlıkla yapabilirsin. Hem de bunları yaparken aslında içinden gelerek yaptığını fark edeceksin.";
-  static String kuvars =
-      "Kıskançlık ve öfke gibi büyük olumsuz duygulara bugün biraz ara verebilirsin. Kuvars enerjisi seni bütün bu negatif duygulara karşı koruyacak ve vücudundaki tüm negatifliği, pozitif enerjiye dönüşebilmesi için evrene gönderecek. Kuvarsın kudretli enerjisini bugün doğru kullan. Sevgini paylaşmak ve derin arzularını kutusundan çıkarmak için doğru bir zaman olabilir.";
-  static String selenyt =
-      "Şans, bereket ve kazançla barışacağın bir gün. Uzun süredir beklediğin güzel bir haberi bugün alabilirsin. Tekdüze ilerleyen maddi hayatında olumlu yönde hareketlilik olacak gibi duruyor. Bugün küçük bir şans oyunu oynamayı deneyebilirsin. Karşına güzel fırsatlar çıkabilir. Bunları doğru değerlendirmek tamamen senin elinde.";
-  static String sun =
-      "Stresi elinin tersiyle itip neşe ve mutluluğu kucaklayacağın muhteşem bir gündesin. Enerjinin yenilendiğini ve içinin sıcacık bir mutlulukla dolduğunu hissedebilirsin. Hatta gün içinde anlamsız ve kaynaksız mutluluklar yaşayabilirsin. Bunların hepsi Güneş enerjisinin yan etkileri. Eğer fazla kilolarından kurtulmak gibi bir niyetin varsa bugün, başlamak için doğru bir gün olabilir.";
-  static String moon =
-      "Romantizm ve aşk kapında gibi duruyor. Yüksek bir arzu ve ateş vücudunu saracak. Bu duygular seni doğru kişilere götürebilir. Ama yanlış kişilere gitmediğinden de emin olmalısın. Böyle bir dönemde güvenli olduğunu bildiğin kişilerin yanında olmak senin için en doğrusu olacaktır. Çünkü bu enerjinin kontrol edilebilir olması çok önemli.";
 
   static String kvkk = """
 KİŞİSEL VERİLERİN KORUNMASI VE İŞLENMESİ

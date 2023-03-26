@@ -7,7 +7,6 @@ import 'package:fortunetell/service/auth.dart';
 import 'package:fortunetell/service/favorites_service.dart';
 import 'package:fortunetell/service/sharestatus_service.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class DiscoverViewPage extends StatefulWidget {
   const DiscoverViewPage({Key? key}) : super(key: key);
@@ -50,17 +49,6 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
     });
   }
 
-  Future<void> _launchInWebViewOrVC(Uri url) async {
-    if (!await launchUrl(
-      url,
-      mode: LaunchMode.inAppWebView,
-      webViewConfiguration: const WebViewConfiguration(
-          headers: <String, String>{'my_header_key': 'my_header_value'}),
-    )) {
-      throw Exception('Could not launch $url');
-    }
-  }
-
   String networkImage =
       "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/profilepic.png?alt=media&token=999968ad-aa14-4459-b2e9-9cadbb2bfae5";
 
@@ -96,21 +84,6 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                     itemBuilder: (context, index) {
                       DocumentSnapshot mypost = snapshot.data!.docs[index];
 
-                      DateTime datetime = DateTime.parse(mypost['datetime']);
-                      String datetimeyear = datetime.year.toString();
-                      String datetimemonth = datetime.month < 10
-                          ? "0${datetime.month}"
-                          : datetime.month.toString();
-                      String datetimeday = datetime.day < 10
-                          ? "0${datetime.day}"
-                          : datetime.day.toString();
-                      String datetimehour = datetime.hour < 10
-                          ? "0${datetime.hour}"
-                          : datetime.hour.toString();
-                      String datetimeminute = datetime.minute < 0
-                          ? "${datetime.minute}"
-                          : datetime.minute.toString();
-
                       return FittedBox(
                         fit: BoxFit.contain,
                         child: Column(
@@ -122,15 +95,15 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                                   top: 20, left: 50, right: 50),
                               child: Row(
                                 children: [
-                                  CircleAvatar(
+                                  const CircleAvatar(
                                     backgroundImage: NetworkImage(
-                                      mypost['image'],
+                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/aspics%2Fappstore.png?alt=media&token=bd635e06-3332-44d9-9d37-1e0284c4ad94",
                                     ),
                                   ),
                                   Padding(
                                     padding: const EdgeInsets.only(left: 10),
                                     child: Text(
-                                      mypost['name'],
+                                      mypost['header'],
                                       style:
                                           const TextStyle(color: Colors.white),
                                     ),
@@ -141,322 +114,118 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                             Padding(
                               padding: const EdgeInsets.only(
                                   top: 10, bottom: 10, left: 50, right: 50),
-                              child: mypost['uid'] == 'reklamidfisis'
-                                  ? FrostedGlassView(
-                                      theheight: 200,
-                                      thewidth: 300,
-                                      thechild: InkWell(
-                                        onTap: () {
-                                          final Uri url =
-                                              Uri.parse(mypost['urllink']);
-                                          _launchInWebViewOrVC(url);
-                                        },
-                                        child: SizedBox(
-                                          height: 180,
-                                          width: 280,
-                                          child: Image.network(
-                                              mypost['backgroundimage']),
-                                        ),
+                              child: FrostedGlassView(
+                                thewidth: 200,
+                                theheight: 200,
+                                thechild: Padding(
+                                  padding: const EdgeInsets.only(
+                                    left: 8,
+                                    right: 8,
+                                    bottom: 8,
+                                  ),
+                                  child: Column(
+                                    children: [
+                                      Padding(
+                                        padding:
+                                            const EdgeInsets.only(bottom: 5),
+                                        child: Text(mypost['datetime']),
                                       ),
-                                    )
-                                  : FrostedGlassView(
-                                      theheight: 280,
-                                      thewidth: 300,
-                                      thechild: Column(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.start,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
+                                      Expanded(
+                                          child: Row(
                                         children: [
-                                          SizedBox(
-                                            width: 110,
-                                            child: Text(
-                                                "$datetimeyear-$datetimemonth-$datetimeday $datetimehour:$datetimeminute"),
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F1.png?alt=media&token=35754344-0317-47d4-96c2-740ab4571004',
+                                            title: 'Koç',
+                                            content: mypost['koc'],
                                           ),
-                                          Padding(
-                                            padding: const EdgeInsets.only(
-                                                right: 10,
-                                                left: 10,
-                                                bottom: 10),
-                                            child: Container(
-                                              decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                      color:
-                                                          Colors.transparent),
-                                                  borderRadius:
-                                                      BorderRadius.circular(20),
-                                                  color: Colors.white
-                                                      .withOpacity(0.20)),
-                                              child: Column(
-                                                mainAxisAlignment:
-                                                    MainAxisAlignment.center,
-                                                crossAxisAlignment:
-                                                    CrossAxisAlignment.center,
-                                                children: [
-                                                  Padding(
-                                                    padding:
-                                                        const EdgeInsets.all(
-                                                            8.0),
-                                                    child: Row(
-                                                      children: [
-                                                        Expanded(
-                                                          flex: 1,
-                                                          child: Icon(
-                                                            Icons
-                                                                .circle_rounded,
-                                                            size: 30,
-                                                            color: mypost[
-                                                                        'color'] ==
-                                                                    "Kırmızı"
-                                                                ? Colors.red
-                                                                : mypost['color'] ==
-                                                                        "Turuncu"
-                                                                    ? Colors
-                                                                        .orange
-                                                                    : mypost['color'] ==
-                                                                            "Sarı"
-                                                                        ? Colors
-                                                                            .yellow
-                                                                        : mypost['color'] ==
-                                                                                "Yeşil"
-                                                                            ? Colors.green
-                                                                            : mypost['color'] == "Mavi"
-                                                                                ? Colors.blue
-                                                                                : mypost['color'] == "Lacivert"
-                                                                                    ? Colors.blue.shade900
-                                                                                    : Colors.purple,
-                                                          ),
-                                                        ),
-                                                        Expanded(
-                                                            flex: 2,
-                                                            child: Text(
-                                                              "${mypost['color']}",
-                                                              textAlign:
-                                                                  TextAlign
-                                                                      .center,
-                                                              style: GoogleFonts
-                                                                  .oswald(
-                                                                      letterSpacing:
-                                                                          3,
-                                                                      fontSize:
-                                                                          18),
-                                                            )),
-                                                        Expanded(
-                                                          flex: 1,
-                                                          child: Icon(
-                                                            Icons
-                                                                .circle_rounded,
-                                                            size: 30,
-                                                            color: mypost[
-                                                                        'color'] ==
-                                                                    "Kırmızı"
-                                                                ? Colors.red
-                                                                : mypost['color'] ==
-                                                                        "Turuncu"
-                                                                    ? Colors
-                                                                        .orange
-                                                                    : mypost['color'] ==
-                                                                            "Sarı"
-                                                                        ? Colors
-                                                                            .yellow
-                                                                        : mypost['color'] ==
-                                                                                "Yeşil"
-                                                                            ? Colors.green
-                                                                            : mypost['color'] == "Mavi"
-                                                                                ? Colors.blue
-                                                                                : mypost['color'] == "Lacivert"
-                                                                                    ? Colors.blue.shade900
-                                                                                    : Colors.purple,
-                                                          ),
-                                                        ),
-                                                      ],
-                                                    ),
-                                                  ),
-                                                  Padding(
-                                                    padding:
-                                                        const EdgeInsets.all(
-                                                            8.0),
-                                                    child: Row(
-                                                      children: [
-                                                        Expanded(
-                                                            flex: 1,
-                                                            child: SizedBox(
-                                                              height: 30,
-                                                              width: 30,
-                                                              child: Image.network(
-                                                                  "${mypost['imageanimal']}"),
-                                                            )),
-                                                        Expanded(
-                                                            flex: 2,
-                                                            child: Text(
-                                                              "${mypost['animal']}",
-                                                              textAlign:
-                                                                  TextAlign
-                                                                      .center,
-                                                              style: GoogleFonts
-                                                                  .oswald(
-                                                                      letterSpacing:
-                                                                          3,
-                                                                      fontSize:
-                                                                          18),
-                                                            )),
-                                                        Expanded(
-                                                            flex: 1,
-                                                            child: SizedBox(
-                                                              height: 30,
-                                                              width: 30,
-                                                              child: Image.network(
-                                                                  "${mypost['imageanimal']}"),
-                                                            )),
-                                                      ],
-                                                    ),
-                                                  ),
-                                                  Padding(
-                                                    padding:
-                                                        const EdgeInsets.all(
-                                                            8.0),
-                                                    child: Row(
-                                                      children: [
-                                                        Expanded(
-                                                            flex: 1,
-                                                            child: SizedBox(
-                                                              height: 30,
-                                                              width: 30,
-                                                              child: Image.network(
-                                                                  "${mypost['imageplant']}"),
-                                                            )),
-                                                        Expanded(
-                                                            flex: 2,
-                                                            child: Text(
-                                                              "${mypost['plant']}",
-                                                              textAlign:
-                                                                  TextAlign
-                                                                      .center,
-                                                              style: GoogleFonts
-                                                                  .oswald(
-                                                                      letterSpacing:
-                                                                          3,
-                                                                      fontSize:
-                                                                          18),
-                                                            )),
-                                                        Expanded(
-                                                            flex: 1,
-                                                            child: SizedBox(
-                                                              height: 30,
-                                                              width: 30,
-                                                              child: Image.network(
-                                                                  "${mypost['imageplant']}"),
-                                                            )),
-                                                      ],
-                                                    ),
-                                                  ),
-                                                  Padding(
-                                                    padding:
-                                                        const EdgeInsets.all(
-                                                            8.0),
-                                                    child: Row(
-                                                      children: [
-                                                        Expanded(
-                                                            flex: 1,
-                                                            child: SizedBox(
-                                                              height: 30,
-                                                              width: 30,
-                                                              child: Image.network(
-                                                                  "${mypost['imagerock']}"),
-                                                            )),
-                                                        Expanded(
-                                                            flex: 2,
-                                                            child: Text(
-                                                              "${mypost['rock']}",
-                                                              textAlign:
-                                                                  TextAlign
-                                                                      .center,
-                                                              style: GoogleFonts
-                                                                  .oswald(
-                                                                      letterSpacing:
-                                                                          3,
-                                                                      fontSize:
-                                                                          18),
-                                                            )),
-                                                        Expanded(
-                                                            flex: 1,
-                                                            child: SizedBox(
-                                                              height: 30,
-                                                              width: 30,
-                                                              child: Image.network(
-                                                                  "${mypost['imagerock']}"),
-                                                            )),
-                                                      ],
-                                                    ),
-                                                  ),
-                                                ],
-                                              ),
-                                            ),
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F2.png?alt=media&token=1821ffe7-0a85-4976-995e-12a3453ea31b',
+                                            title: 'Boğa',
+                                            content: mypost['boga'],
                                           ),
-                                          Row(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.end,
-                                            children: [
-                                              Padding(
-                                                padding: const EdgeInsets.only(
-                                                    left: 20, right: 20),
-                                                child: SizedBox(
-                                                  height: 60,
-                                                  width: 150,
-                                                  child: Text(
-                                                    "${mypost['explain']}",
-                                                    softWrap: true,
-                                                    maxLines: 3,
-                                                    style: GoogleFonts.oswald(
-                                                        textStyle:
-                                                            const TextStyle(
-                                                      fontSize: 12,
-                                                      fontWeight:
-                                                          FontWeight.w300,
-                                                      color: Colors.white,
-                                                    )),
-                                                  ),
-                                                ),
-                                              ),
-                                              Padding(
-                                                padding: const EdgeInsets.only(
-                                                    right: 20),
-                                                child: IconButton(
-                                                    onPressed: () {
-                                                      _favoriteSharesService
-                                                          .addFavorite(
-                                                        mypost['image'],
-                                                        mypost['name'],
-                                                        mypost['explain'],
-                                                        DateTime.now()
-                                                            .toString(),
-                                                      );
-                                                      String name = "";
-                                                      if (mypost['uid'] ==
-                                                          uid) {
-                                                        setState(() {
-                                                          name = 'Paylaşmınız';
-                                                        });
-                                                      } else {
-                                                        name =
-                                                            "${mypost['name']} kişisinin paylaşımı";
-                                                      }
-                                                      ScaffoldMessenger.of(
-                                                              context)
-                                                          .showSnackBar(SnackBar(
-                                                              content: Text(
-                                                                  "$name favorilere eklendi.")));
-                                                    },
-                                                    icon: Icon(
-                                                      Icons.star_rounded,
-                                                      color: customColor,
-                                                    )),
-                                              ),
-                                            ],
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F3.png?alt=media&token=cc466a48-9157-4557-ac39-4150cccfb027',
+                                            title: 'İkizler',
+                                            content: mypost['ikizler'],
                                           ),
                                         ],
-                                      ),
-                                    ),
+                                      )),
+                                      Expanded(
+                                          child: Row(
+                                        children: [
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F4.png?alt=media&token=8225c04a-410c-4742-817a-ae7c9a313230',
+                                            title: 'Yengeç',
+                                            content: mypost['yengec'],
+                                          ),
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F5.png?alt=media&token=dbbb22e7-73a9-41d8-8841-687e82aeeaca',
+                                            title: 'Aslan',
+                                            content: mypost['aslan'],
+                                          ),
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F6.png?alt=media&token=5397fd8c-8ecf-4f61-b4e9-5f4859db1d90',
+                                            title: 'Başak',
+                                            content: mypost['basak'],
+                                          ),
+                                        ],
+                                      )),
+                                      Expanded(
+                                          child: Row(
+                                        children: [
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F7.png?alt=media&token=2ee3bbf3-a08e-4f6b-8a78-341426385295',
+                                            title: 'Terazi',
+                                            content: mypost['terazi'],
+                                          ),
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F8.png?alt=media&token=fddf1d66-000c-462a-8183-e0d6a421af0a',
+                                            title: 'Akrep',
+                                            content: mypost['akrep'],
+                                          ),
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F9.png?alt=media&token=8f713342-26a7-4f28-bfbd-3a54d21bb46f',
+                                            title: 'Yay',
+                                            content: mypost['yay'],
+                                          ),
+                                        ],
+                                      )),
+                                      Expanded(
+                                          child: Row(
+                                        children: [
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F10.png?alt=media&token=739067aa-26de-4fa1-8201-d5cf3e632c08',
+                                            title: 'Oğlak',
+                                            content: mypost['oglak'],
+                                          ),
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F11.png?alt=media&token=173b72de-4a65-4547-b749-d227d5537349',
+                                            title: 'Kova',
+                                            content: mypost['kova'],
+                                          ),
+                                          SignCommand(
+                                            pic:
+                                                'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F12.png?alt=media&token=ef62273c-38c1-4b89-a495-006a58f97f7e',
+                                            title: 'Balık',
+                                            content: mypost['balik'],
+                                          ),
+                                        ],
+                                      )),
+                                    ],
+                                  ),
+                                ),
+                              ),
                             ),
                           ],
                         ),
@@ -465,6 +234,45 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                   );
           },
         ),
+      ),
+    );
+  }
+}
+
+class SignCommand extends StatelessWidget {
+  const SignCommand({
+    Key? key,
+    required this.pic,
+    required this.title,
+    required this.content,
+  }) : super(key: key);
+
+  final String pic;
+  final String title;
+  final String content;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: InkWell(
+        child: Image.network(pic),
+        onTap: () {
+          showDialog(
+              context: context,
+              builder: (context) => AlertDialog(
+                    title: Text(title),
+                    content: Text(content),
+                    actions: [
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.purple,
+                        ),
+                        onPressed: () => Navigator.pop(context),
+                        child: const Text('Tamam'),
+                      )
+                    ],
+                  ));
+        },
       ),
     );
   }

@@ -15,6 +15,11 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        backgroundColor: Colors.purple.shade100,
+        toolbarHeight: 15,
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: const [
