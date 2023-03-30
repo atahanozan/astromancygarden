@@ -468,7 +468,12 @@ class _SignCalculateState extends State<SignCalculate> {
                         .doc(sign.id)
                         .update({'sign': lastsign});
 
-                    return Text(lastsign);
+                    return Text(
+                      lastsign,
+                      style: const TextStyle(
+                        color: Colors.white,
+                      ),
+                    );
                   });
         });
   }

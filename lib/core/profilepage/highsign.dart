@@ -397,7 +397,12 @@ class _HighSignState extends State<HighSign> {
                                                                 ? highsignkova
                                                                 : highsignbalik;
 
-                    return Text(lastsign);
+                    return Text(
+                      lastsign,
+                      style: const TextStyle(
+                        color: Colors.white,
+                      ),
+                    );
                   });
         });
   }

@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:fortunetell/service/auth.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 
@@ -112,7 +113,10 @@ class _ProfileNamePageState extends State<ProfileNamePage> {
                               children: [
                                 Text(
                                   person['userName'].toString(),
-                                  style: Theme.of(context).textTheme.headline5,
+                                  style: GoogleFonts.oswald(
+                                    color: Colors.white,
+                                    fontSize: 30,
+                                  ),
                                 ),
                                 InkWell(
                                     onTap: () {

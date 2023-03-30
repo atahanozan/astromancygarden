@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fortunetell/apppages/discoverpage.dart';
 import 'package:fortunetell/apppages/homepage.dart';
+import 'package:fortunetell/apppages/moreapps.dart';
 import 'package:fortunetell/apppages/profilepage.dart';
 import 'package:fortunetell/apppages/wishcards.dart';
 import 'package:fortunetell/core/animatedfab.dart';
@@ -20,7 +21,7 @@ class _NavBarState extends State<NavBar> {
   String customimageURL =
       "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/profilepic.png?alt=media&token=999968ad-aa14-4459-b2e9-9cadbb2bfae5";
 
-  int page = 0;
+  int page = 1;
 
   final AuthService _authService = AuthService();
   final FirebaseNotification _service = FirebaseNotification();
@@ -54,66 +55,52 @@ class _NavBarState extends State<NavBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: const AnimatedFAB(),
-      body: IndexedStack(index: page, children: const <Widget>[
-        HomePage(),
-        TarotPage(),
-        DiscoverViewPage(),
-        WishCardsPageView(),
-        ProfilePage(),
-      ]),
+      extendBody: true,
+      body: IndexedStack(
+        index: page,
+        children: const <Widget>[
+          DiscoverViewPage(),
+          MoreApps(),
+          ProfilePage(),
+        ],
+      ),
       bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: page == 0
-              ? Colors.blue.shade100
-              : page == 1
-                  ? Colors.green.shade100
-                  : page == 2
-                      ? Colors.amber.shade100
-                      : Colors.purple.shade100,
-          onTap: (index) {
+          onTap: (value) {
             setState(() {
-              page = index;
+              page = value;
             });
           },
-          selectedItemColor: Colors.black87,
-          // type: BottomNavigationBarType.fixed,
+          backgroundColor: Colors.black.withOpacity(0.3),
+          elevation: 0,
+          selectedItemColor: Colors.amber,
+          unselectedItemColor: Colors.white,
+          type: BottomNavigationBarType.fixed,
           currentIndex: page,
           items: [
-            BottomNavigationBarItem(
-              icon: SizedBox(
-                  height: 30,
-                  width: 30,
-                  child: Image.asset("assets/gunlukicon.png")),
-              label: "Günlük Fal",
-              backgroundColor: const Color(0xFFBBDEFB),
+            const BottomNavigationBarItem(
+              icon: Icon(
+                Icons.search_rounded,
+                size: 30,
+              ),
+              label: "",
+            ),
+            const BottomNavigationBarItem(
+              icon: Icon(
+                Icons.home_rounded,
+                size: 50,
+              ),
+              label: "",
             ),
             BottomNavigationBarItem(
-                backgroundColor: const Color(0xFFC8E6C9),
-                icon: SizedBox(
-                    height: 30,
-                    width: 30,
-                    child: Image.asset("assets/taroticon.png")),
-                label: "Tarot Falı"),
-            BottomNavigationBarItem(
-                backgroundColor: const Color(0xFF424242),
-                icon: SizedBox(
-                    height: 30,
-                    width: 30,
-                    child: Image.asset("assets/homeicon.png")),
-                label: "Keşfet"),
-            BottomNavigationBarItem(
-                backgroundColor: const Color(0xFFFFECB3),
-                icon: SizedBox(
-                    height: 30,
-                    width: 30,
-                    child: Image.asset("assets/sansicon.png")),
-                label: "Dilek Kartları"),
-            BottomNavigationBarItem(
-                backgroundColor: const Color(0xFFE1BEE7),
-                icon: CircleAvatar(
+              icon: SizedBox(
+                height: 30,
+                width: 30,
+                child: CircleAvatar(
                   backgroundImage: NetworkImage(customimageURL),
                 ),
-                label: "Profil"),
+              ),
+              label: "",
+            ),
           ]),
     );
   }

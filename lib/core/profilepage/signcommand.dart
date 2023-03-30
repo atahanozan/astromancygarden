@@ -126,7 +126,12 @@ class _listTile extends StatelessWidget {
         text,
         style: const TextStyle(color: Colors.pink),
       ),
-      subtitle: Text(special),
+      subtitle: Text(
+        special,
+        style: const TextStyle(
+          color: Colors.white,
+        ),
+      ),
     );
   }
 }

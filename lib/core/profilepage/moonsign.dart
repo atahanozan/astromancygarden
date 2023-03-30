@@ -305,7 +305,12 @@ class _MoonSignState extends State<MoonSign> {
                         ? signs[(totalpoint)]
                         : signs[(totalpoint - 12)];
 
-                    return Text(lastmoonsign);
+                    return Text(
+                      lastmoonsign,
+                      style: const TextStyle(
+                        color: Colors.white,
+                      ),
+                    );
                   });
         });
   }

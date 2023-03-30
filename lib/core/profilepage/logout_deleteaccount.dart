@@ -52,7 +52,7 @@ class _LogoutDeletSectionState extends State<LogoutDeletSection> {
               },
               child: const Text(
                 'Hesaptan Çıkış Yap',
-                style: TextStyle(color: Colors.black54),
+                style: TextStyle(color: Colors.white),
               )),
           TextButton(
               onPressed: () {

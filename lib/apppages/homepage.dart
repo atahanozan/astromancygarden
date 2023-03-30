@@ -85,12 +85,16 @@ class _HomePageState extends State<HomePage> {
       newPlant = pref.getString('newPlant') ?? "";
       newRock = pref.getString('newRock') ?? "";
       falColor = pref.getString('falColor') ?? "";
-      imageColor = pref.getString('imageColor') ?? "";
-      imageAnimal = pref.getString('imageAnimal') ?? "";
+      imageColor = pref.getString('imageColor') ??
+          "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/akik.png?alt=media&token=b5ee4eb6-fff6-4dbc-88e9-868cd19ff442";
+      imageAnimal = pref.getString('imageAnimal') ??
+          "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/akik.png?alt=media&token=b5ee4eb6-fff6-4dbc-88e9-868cd19ff442";
       falAnimal = pref.getString('falAnimal') ?? "";
-      imagePlant = pref.getString('imagePlant') ?? "";
+      imagePlant = pref.getString('imagePlant') ??
+          "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/akik.png?alt=media&token=b5ee4eb6-fff6-4dbc-88e9-868cd19ff442";
       falPlant = pref.getString('falPlant') ?? "";
-      imageRock = pref.getString('imageRock') ?? "";
+      imageRock = pref.getString('imageRock') ??
+          "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/akik.png?alt=media&token=b5ee4eb6-fff6-4dbc-88e9-868cd19ff442";
       falRock = pref.getString('falRock') ?? "";
       firecolor = pref.getString('firecolor') ?? "";
       fireanimal = pref.getString('fireanimal') ?? "";
@@ -126,6 +130,9 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     getItems().then((value) {
       setState(() {
+        Duration fark = DateTime.parse(start).difference(
+          DateTime.now(),
+        );
         FirebaseFirestore.instance
             .collection('daily')
             .where('item', isEqualTo: 'color')
@@ -182,11 +189,8 @@ class _HomePageState extends State<HomePage> {
             });
           }
         });
-        Duration fark = DateTime.parse(start).difference(
-          DateTime.now(),
-        );
+
         Duration son = const Duration(
-          days: 0,
           hours: 0,
           minutes: 0,
           seconds: 0,

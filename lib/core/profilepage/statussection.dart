@@ -284,7 +284,10 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                       children: [
                         Text(
                           'KİŞİSEL BİLGİLER',
-                          style: Theme.of(context).textTheme.headline6,
+                          style:
+                              Theme.of(context).textTheme.headline6?.copyWith(
+                                    color: Colors.white,
+                                  ),
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 10),
@@ -298,11 +301,19 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                                         'Hakkında',
                                         style: Theme.of(context)
                                             .textTheme
-                                            .bodyLarge,
+                                            .bodyLarge
+                                            ?.copyWith(
+                                              color: Colors.white,
+                                            ),
                                       )),
                                   Expanded(
                                     flex: 2,
-                                    child: Text('${status['status']}'),
+                                    child: Text(
+                                      '${status['status']}',
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                      ),
+                                    ),
                                   ),
                                   Expanded(
                                       flex: 1,
@@ -379,11 +390,19 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                                         'Cinsiyet',
                                         style: Theme.of(context)
                                             .textTheme
-                                            .bodyLarge,
+                                            .bodyLarge
+                                            ?.copyWith(
+                                              color: Colors.white,
+                                            ),
                                       )),
                                   Expanded(
                                     flex: 2,
-                                    child: Text('${status['gender']}'),
+                                    child: Text(
+                                      '${status['gender']}',
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                      ),
+                                    ),
                                   ),
                                   Expanded(
                                       flex: 1,
@@ -459,12 +478,19 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                                         'Doğum Tarihi/Saati',
                                         style: Theme.of(context)
                                             .textTheme
-                                            .bodyLarge,
+                                            .bodyLarge
+                                            ?.copyWith(
+                                              color: Colors.white,
+                                            ),
                                       )),
                                   Expanded(
                                     flex: 2,
                                     child: Text(
-                                        '${status['day']}.${status['month']}.${status['year']}  ${status['hour']}:${status['minute']}'),
+                                      '${status['day']}.${status['month']}.${status['year']}  ${status['hour']}:${status['minute']}',
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                      ),
+                                    ),
                                   ),
                                   Expanded(
                                       flex: 1,
@@ -669,7 +695,12 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                           children: [
                             Text(
                               'YILDIZ BİLGİLERİ',
-                              style: Theme.of(context).textTheme.headline6,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline6
+                                  ?.copyWith(
+                                    color: Colors.white,
+                                  ),
                             ),
                             Padding(
                               padding: const EdgeInsets.symmetric(vertical: 10),
@@ -684,7 +715,10 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                                               'Burç',
                                               style: Theme.of(context)
                                                   .textTheme
-                                                  .bodyLarge,
+                                                  .bodyLarge
+                                                  ?.copyWith(
+                                                    color: Colors.white,
+                                                  ),
                                             )),
                                         const Expanded(
                                           flex: 2,
@@ -700,7 +734,10 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                                               'Ay Burcu',
                                               style: Theme.of(context)
                                                   .textTheme
-                                                  .bodyLarge,
+                                                  .bodyLarge
+                                                  ?.copyWith(
+                                                    color: Colors.white,
+                                                  ),
                                             )),
                                         const Expanded(
                                           flex: 2,
@@ -716,7 +753,10 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                                               'Yükselen Burç',
                                               style: Theme.of(context)
                                                   .textTheme
-                                                  .bodyLarge,
+                                                  .bodyLarge
+                                                  ?.copyWith(
+                                                    color: Colors.white,
+                                                  ),
                                             )),
                                         const Expanded(
                                           flex: 2,
@@ -732,7 +772,10 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                                             'Burç Özellikleri',
                                             style: Theme.of(context)
                                                 .textTheme
-                                                .bodyLarge,
+                                                .bodyLarge
+                                                ?.copyWith(
+                                                  color: Colors.white,
+                                                ),
                                           ),
                                           const SignCommendsSate(),
                                         ],
