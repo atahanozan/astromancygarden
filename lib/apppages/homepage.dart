@@ -6,6 +6,7 @@ import 'package:fortunetell/core/infobutton.dart';
 import 'package:fortunetell/core/languages.dart';
 import 'package:fortunetell/service/auth.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:like_button/like_button.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class HomePage extends StatefulWidget {
@@ -309,150 +310,147 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  void likeButtonFun() {
+    showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+              content: Image.asset("assets/loading.gif"),
+            ));
+    startLoadingTimer();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
-        automaticallyImplyLeading: false,
-        toolbarHeight: 15,
+        elevation: 0,
+        foregroundColor: Colors.black,
+        backgroundColor: Colors.transparent,
+        title: Text(
+          'GÜNLÜK FAL',
+          style: GoogleFonts.benchNine(
+            fontSize: 25,
+          ),
+        ),
+        actions: const [
+          InfoButton(
+            content: Text('dememe'),
+            title: Text('deneme'),
+          ),
+        ],
       ),
       body: SingleChildScrollView(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            FittedBox(
-              fit: BoxFit.cover,
-              child: Stack(
-                alignment: AlignmentDirectional.center,
+        child: Padding(
+          padding: const EdgeInsets.only(top: 200),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Column(
                 children: [
-                  Image.asset("assets/skyblue.png"),
-                  Row(
-                    children: [
-                      Text(
-                        "Günlük Fal",
-                        style: GoogleFonts.kaushanScript(fontSize: 50),
-                      ),
-                      InfoButton(
-                        content: Text(textUtilities.klavuzdaily),
-                        title: const Text("Günlük Fal Klavuzu"),
-                      ),
-                    ],
-                  )
+                  SizedBox(
+                    height: _height,
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          FittedBox(
+                            fit: BoxFit.contain,
+                            child: Text(
+                              "Günlük Falınızı Görmek İçin \nUygulamanın Kalbine \nDokunun",
+                              style: Theme.of(context).textTheme.headline5,
+                              textAlign: TextAlign.center,
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 15),
+                            child: LikeButton(
+                              size: 100,
+                              onTap: (isLiked) async {
+                                Timer(const Duration(seconds: 1),
+                                    () => likeButtonFun());
+                                return !isLiked;
+                              },
+                            ),
+                          ),
+                        ]),
+                  ),
                 ],
               ),
-            ),
-            Column(
-              children: [
-                SizedBox(
-                  height: _height,
-                  child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        FittedBox(
-                          fit: BoxFit.contain,
-                          child: Text(
-                            "Günlük Falınızı Görmek İçin \nUygulamanın Kalbine \nDokunun",
-                            style: Theme.of(context).textTheme.headline5,
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 15),
-                          child: FloatingActionButton.large(
-                              heroTag: "btn1",
-                              backgroundColor: Colors.blue.shade100,
-                              foregroundColor: Colors.red.shade900,
-                              onPressed: () {
-                                showDialog(
-                                    context: context,
-                                    builder: (context) => AlertDialog(
-                                          content:
-                                              Image.asset("assets/loading.gif"),
-                                        ));
-                                startLoadingTimer();
-                              },
-                              child: const Icon(
-                                Icons.favorite_rounded,
-                                size: 50,
-                              )),
-                        ),
-                      ]),
-                ),
-              ],
-            ),
-            Column(
-              children: [
-                Center(
-                    child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 20),
-                        child: SizedBox(
-                            height: _height2,
-                            child: Column(children: [
-                              const Text(
-                                "Günlük falınıza yarın yeniden bakabilirsiniz.",
-                                textAlign: TextAlign.center,
-                                style: TextStyle(color: Colors.blueAccent),
-                              ),
-                              Card(
-                                child: Column(
-                                  children: [
-                                    Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                          vertical: 10),
-                                      child: Text(
-                                        "Aşk, Para ve Sağlıkta Bugün",
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .headline5,
+              Column(
+                children: [
+                  Center(
+                      child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          child: SizedBox(
+                              height: _height2,
+                              child: Column(children: [
+                                const Text(
+                                  "Günlük falınıza yarın yeniden bakabilirsiniz.",
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(color: Colors.blueAccent),
+                                ),
+                                Card(
+                                  child: Column(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.symmetric(
+                                            vertical: 10),
+                                        child: Text(
+                                          "Aşk, Para ve Sağlıkta Bugün",
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .headline5,
+                                        ),
                                       ),
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(
-                                          top: 10,
-                                          bottom: 10,
-                                          left: 40,
-                                          right: 40),
-                                      child: CircularProgress(
-                                          ask: ask, para: para, saglik: sans),
-                                    ),
-                                  ],
+                                      Padding(
+                                        padding: const EdgeInsets.only(
+                                            top: 10,
+                                            bottom: 10,
+                                            left: 40,
+                                            right: 40),
+                                        child: CircularProgress(
+                                            ask: ask, para: para, saglik: sans),
+                                      ),
+                                    ],
+                                  ),
                                 ),
-                              ),
-                              Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(vertical: 10),
-                                child: Text(
-                                  "Bugünün Falı",
-                                  style: Theme.of(context).textTheme.headline5,
+                                Padding(
+                                  padding:
+                                      const EdgeInsets.symmetric(vertical: 10),
+                                  child: Text(
+                                    "Bugünün Falı",
+                                    style:
+                                        Theme.of(context).textTheme.headline5,
+                                  ),
                                 ),
-                              ),
-                              FalAciklamasi(
-                                fal: 'Uğurlu Renk: $newColor',
-                                image: imageColor,
-                                explain: falColor,
-                              ),
-                              const Divider(),
-                              FalAciklamasi(
-                                fal: 'Uğurlu Hayvan: $newAnimal',
-                                image: imageAnimal,
-                                explain: falAnimal,
-                              ),
-                              const Divider(),
-                              FalAciklamasi(
-                                fal: 'Uğurlu Bitki: $newPlant',
-                                image: imagePlant,
-                                explain: falPlant,
-                              ),
-                              const Divider(),
-                              FalAciklamasi(
-                                fal: 'Uğurlu Taş: $newRock',
-                                image: imageRock,
-                                explain: falRock,
-                              ),
-                            ])))),
-              ],
-            ),
-          ],
+                                FalAciklamasi(
+                                  fal: 'Uğurlu Renk: $newColor',
+                                  image: imageColor,
+                                  explain: falColor,
+                                ),
+                                const Divider(),
+                                FalAciklamasi(
+                                  fal: 'Uğurlu Hayvan: $newAnimal',
+                                  image: imageAnimal,
+                                  explain: falAnimal,
+                                ),
+                                const Divider(),
+                                FalAciklamasi(
+                                  fal: 'Uğurlu Bitki: $newPlant',
+                                  image: imagePlant,
+                                  explain: falPlant,
+                                ),
+                                const Divider(),
+                                FalAciklamasi(
+                                  fal: 'Uğurlu Taş: $newRock',
+                                  image: imageRock,
+                                  explain: falRock,
+                                ),
+                              ])))),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );

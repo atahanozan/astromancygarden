@@ -1,14 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fortunetell/apppages/discoverpage.dart';
-import 'package:fortunetell/apppages/homepage.dart';
 import 'package:fortunetell/apppages/moreapps.dart';
 import 'package:fortunetell/apppages/profilepage.dart';
-import 'package:fortunetell/apppages/wishcards.dart';
-import 'package:fortunetell/core/animatedfab.dart';
 import 'package:fortunetell/service/auth.dart';
 import 'package:fortunetell/service/fluttermessaging.dart';
-import '../apppages/tarotpage.dart';
 
 class NavBar extends StatefulWidget {
   const NavBar({Key? key}) : super(key: key);

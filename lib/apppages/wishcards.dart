@@ -1,9 +1,11 @@
+import 'dart:async';
 import 'dart:math';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fortunetell/core/infobutton.dart';
 import 'package:fortunetell/core/languages.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:like_button/like_button.dart';
 
 class WishCardsPageView extends StatefulWidget {
   const WishCardsPageView({Key? key}) : super(key: key);
@@ -113,141 +115,137 @@ class _WishCardsPageViewState extends State<WishCardsPageView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        extendBodyBehindAppBar: true,
         appBar: AppBar(
-          automaticallyImplyLeading: false,
-          backgroundColor: Colors.amber.shade100,
-          toolbarHeight: 15,
+          elevation: 0,
+          foregroundColor: Colors.black,
+          backgroundColor: Colors.transparent,
+          title: Text(
+            'DİLEK KARTLARI',
+            style: GoogleFonts.benchNine(
+              fontSize: 25,
+            ),
+          ),
+          actions: const [
+            InfoButton(
+              content: Text('dememe'),
+              title: Text('deneme'),
+            ),
+          ],
         ),
         body: SingleChildScrollView(
-            child:
-                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-          FittedBox(
-            child: Stack(alignment: AlignmentDirectional.center, children: [
-              Image.asset("assets/skyyellow.png"),
-              Row(
-                children: [
-                  Text(
-                    "Dilek Kartları",
-                    style: GoogleFonts.kaushanScript(fontSize: 50),
-                  ),
-                  InfoButton(
-                    content: Text(textUtilities.klavuzchance),
-                    title: const Text("Dilek Kartları Fal Klavuzu"),
-                  )
-                ],
-              )
-            ]),
-          ),
-          FittedBox(
             child: Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: SizedBox(
-                height: _height2,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    const Padding(
-                      padding: EdgeInsets.only(bottom: 30),
-                      child: Text(
-                        'Dileğini tut ve sana en sıcak gelen kartı seç ve basılı tut\nKart sana söylenecekleri söylesin.',
-                        textAlign: TextAlign.center,
+          padding: const EdgeInsets.only(top: 200),
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+            FittedBox(
+              child: Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: SizedBox(
+                  height: _height2,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      const Padding(
+                        padding: EdgeInsets.only(bottom: 30),
+                        child: Text(
+                          'Dileğini tut ve sana en sıcak gelen kartı seç ve basılı tut\nKart sana söylenecekleri söylesin.',
+                          textAlign: TextAlign.center,
+                        ),
                       ),
-                    ),
-                    Row(
-                      children: [
-                        InkWell(
-                          highlightColor: Colors.green,
-                          onTap: () {
-                            onTapFun();
-                          },
-                          onLongPress: () {
-                            onLongPressFun();
-                          },
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(50),
+                      Row(
+                        children: [
+                          InkWell(
+                            highlightColor: Colors.green,
+                            onTap: () {
+                              onTapFun();
+                            },
+                            onLongPress: () {
+                              onLongPressFun();
+                            },
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 200,
+                                child: Image.asset('assets/wishcard.png'),
                               ),
-                              height: 200,
-                              child: Image.asset('assets/wishcard.png'),
                             ),
                           ),
-                        ),
-                        InkWell(
-                          highlightColor: Colors.green,
-                          onTap: () {
-                            onTapFun();
-                          },
-                          onLongPress: () {
-                            onLongPressFun();
-                          },
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(50),
+                          InkWell(
+                            highlightColor: Colors.green,
+                            onTap: () {
+                              onTapFun();
+                            },
+                            onLongPress: () {
+                              onLongPressFun();
+                            },
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 200,
+                                child: Image.asset('assets/wishcard.png'),
                               ),
-                              height: 200,
-                              child: Image.asset('assets/wishcard.png'),
                             ),
                           ),
-                        ),
-                        InkWell(
-                          highlightColor: Colors.green,
-                          onTap: () {
-                            onTapFun();
-                          },
-                          onLongPress: () {
-                            onLongPressFun();
-                          },
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(50),
+                          InkWell(
+                            highlightColor: Colors.green,
+                            onTap: () {
+                              onTapFun();
+                            },
+                            onLongPress: () {
+                              onLongPressFun();
+                            },
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(50),
+                                ),
+                                height: 200,
+                                child: Image.asset('assets/wishcard.png'),
                               ),
-                              height: 200,
-                              child: Image.asset('assets/wishcard.png'),
                             ),
-                          ),
-                        )
-                      ],
-                    ),
-                  ],
+                          )
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
-          ),
-          SizedBox(
-            height: _height,
-            child:
-                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-              FittedBox(
-                fit: BoxFit.contain,
-                child: Text(
-                  "Dilek Kartlarını Açmak İçin \nUygulamanın Kalbine \nDokunun",
-                  style: Theme.of(context).textTheme.headline5,
-                  textAlign: TextAlign.center,
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 15),
-                child: FloatingActionButton.large(
-                    heroTag: "btn24",
-                    backgroundColor: const Color(0xFFFFECB3),
-                    foregroundColor: Colors.red.shade900,
-                    onPressed: () {
-                      heartFun();
-                    },
-                    child: const Icon(
-                      Icons.favorite_rounded,
-                      size: 50,
-                    )),
-              ),
-            ]),
-          ),
-        ])));
+            SizedBox(
+              height: _height,
+              child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    FittedBox(
+                      fit: BoxFit.contain,
+                      child: Text(
+                        "Dilek Kartlarını Açmak İçin \nUygulamanın Kalbine \nDokunun",
+                        style: Theme.of(context).textTheme.headline5,
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 15),
+                      child: LikeButton(
+                        size: 100,
+                        onTap: (isLiked) async {
+                          Timer(const Duration(milliseconds: 400),
+                              () => heartFun());
+                          return !isLiked;
+                        },
+                      ),
+                    ),
+                  ]),
+            ),
+          ]),
+        )));
   }
 }
