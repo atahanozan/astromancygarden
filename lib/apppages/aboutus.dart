@@ -28,94 +28,93 @@ class _AboutUsState extends State<AboutUs> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Colors.purple.shade100,
+        elevation: 0,
+        foregroundColor: Colors.black,
+        backgroundColor: Colors.transparent,
+        title: Text(
+          'HAKKIMIZDA',
+          style: GoogleFonts.benchNine(
+            fontSize: 25,
+          ),
+        ),
       ),
       body: SingleChildScrollView(
-          child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          FittedBox(
-            child: Stack(alignment: AlignmentDirectional.center, children: [
-              Image.asset("assets/skypurple.png"),
-              Text(
-                "Hakkında",
-                style: GoogleFonts.kaushanScript(fontSize: 50),
-              )
-            ]),
-          ),
-          const Divider(
-            thickness: 3,
-            color: Color(0xFFE1BEE7),
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Icon(
-                Icons.favorite_border_rounded,
-                color: Colors.purple.shade800,
-              ),
-              Icon(
-                Icons.favorite_border_rounded,
-                color: Colors.purple.shade800,
-              ),
-              Icon(
-                Icons.favorite_border_rounded,
-                color: Colors.purple.shade800,
-              ),
-            ],
-          ),
-          Padding(
-            padding: const EdgeInsets.all(15.0),
-            child: Text(
-              textUtilities.aboutus,
-              textAlign: TextAlign.center,
-              style: Theme.of(context)
-                  .textTheme
-                  .bodyMedium
-                  ?.copyWith(color: Colors.grey.shade800),
+          child: Padding(
+        padding: const EdgeInsets.only(top: 100),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.favorite_border_rounded,
+                  color: Colors.purple.shade800,
+                ),
+                Icon(
+                  Icons.favorite_border_rounded,
+                  color: Colors.purple.shade800,
+                ),
+                Icon(
+                  Icons.favorite_border_rounded,
+                  color: Colors.purple.shade800,
+                ),
+              ],
             ),
-          ),
-          const Divider(),
-          Padding(
-            padding: const EdgeInsets.all(20),
-            child: InkWell(
-              onTap: () {
-                _launchInWebViewOrVC(instagram);
-              },
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Text(
+                textUtilities.aboutus,
+                textAlign: TextAlign.center,
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyMedium
+                    ?.copyWith(color: Colors.grey.shade800),
+              ),
+            ),
+            const Divider(),
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: InkWell(
+                onTap: () {
+                  _launchInWebViewOrVC(instagram);
+                },
+                child: Row(
+                  children: [
+                    SizedBox(
+                      height: 50,
+                      width: 50,
+                      child: Image.asset('assets/instagram.png'),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.only(left: 20),
+                      child: Text('/astromancygarden'),
+                    )
+                  ],
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(20),
               child: Row(
                 children: [
                   SizedBox(
                     height: 50,
                     width: 50,
-                    child: Image.asset('assets/instagram.png'),
+                    child: Image.asset('assets/mail.png'),
                   ),
                   const Padding(
                     padding: EdgeInsets.only(left: 20),
-                    child: Text('/astromancygarden'),
+                    child: Text('astromancygarden@gmail.com'),
                   )
                 ],
               ),
             ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(20),
-            child: Row(
-              children: [
-                SizedBox(
-                  height: 50,
-                  width: 50,
-                  child: Image.asset('assets/mail.png'),
-                ),
-                const Padding(
-                  padding: EdgeInsets.only(left: 20),
-                  child: Text('astromancygarden@gmail.com'),
-                )
-              ],
-            ),
-          ),
-        ],
+          ],
+        ),
       )),
     );
   }

@@ -7,6 +7,7 @@ import 'package:fortunetell/core/languages.dart';
 import 'package:fortunetell/service/auth.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:like_button/like_button.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class HomePage extends StatefulWidget {

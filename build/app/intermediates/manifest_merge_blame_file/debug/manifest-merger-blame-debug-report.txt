@@ -57,808 +57,857 @@
 29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 29-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
 29-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
-30    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- for android -->
+30    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 30-->[com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\a817a07f472e42f98dc02b1d8828a2f1\transformed\jetified-play-services-measurement-impl-21.2.0\AndroidManifest.xml:27:5-79
 30-->[com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\a817a07f472e42f98dc02b1d8828a2f1\transformed\jetified-play-services-measurement-impl-21.2.0\AndroidManifest.xml:27:22-76
-31    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
-32    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
-33    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
-34    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
-35    <!-- for Samsung -->
-36    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
-36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
-37    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
-37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
-38    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-38-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
-38-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
-39    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-39-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
-39-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
-40    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-40-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
-40-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
-41    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-41-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
-41-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
-42    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-42-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
-42-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
-43    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
-43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
-44    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
-44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
-45    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
-45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
-46    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
-46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
-47    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
-47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
-48    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
-48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
-49    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
-49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
-50    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
-50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
-51    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
-51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
-52
-53    <application
-54        android:name="android.app.Application"
-55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-55-->[androidx.core:core:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\42e6491f5f37d2219727138ee1097e2e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-56        android:debuggable="true"
-57        android:icon="@mipmap/ic_launcher"
-58        android:label="Astromancy Garden" >
-59        <activity
-60            android:name="com.fisis.fortune.app.fortunetell.MainActivity"
-61            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-62            android:exported="true"
-63            android:hardwareAccelerated="true"
-64            android:launchMode="singleTop"
-65            android:theme="@style/LaunchTheme"
-66            android:windowSoftInputMode="adjustResize" >
-67
-68            <!--
-69                 Specifies an Android theme to apply to this Activity as soon as
-70                 the Android process has started. This theme is visible to the user
-71                 while the Flutter UI initializes. After that, this theme continues
-72                 to determine the Window background behind the Flutter UI.
-73            -->
-74            <meta-data
-75                android:name="io.flutter.embedding.android.NormalTheme"
-76                android:resource="@style/NormalTheme" />
-77
-78            <intent-filter>
-79                <action android:name="android.intent.action.MAIN" />
-80
-81                <category android:name="android.intent.category.LAUNCHER" />
-82            </intent-filter>
-83        </activity>
-84        <!--
-85             Don't delete the meta-data below.
-86             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-87        -->
-88        <meta-data
-89            android:name="flutterEmbedding"
-90            android:value="2" />
-91
-92        <service
-92-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
-93            android:name="com.google.firebase.components.ComponentDiscoveryService"
-93-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
-94            android:directBootAware="true"
-94-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
-95            android:exported="false" >
-95-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:10:13-37
-96            <meta-data
-96-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
-97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-97-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
-98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
-99            <meta-data
-99-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
-100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-100-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
-101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+31
+32    <permission
+32-->[androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+33        android:name="com.fisis.fortune.app.fortunetell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.fisis.fortune.app.fortunetell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+36-->[androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+37    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+38    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+39    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+40    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+41    <!-- for Samsung -->
+42    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+42-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+42-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+43    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+44    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+45    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+46    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+47    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+48    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+49    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+50    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+51    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+52    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+53    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+54    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+55    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+56    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+58
+59    <application
+60        android:name="android.app.Application"
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+62        android:debuggable="true"
+63        android:icon="@mipmap/ic_launcher"
+64        android:label="Astromancy Garden" >
+65        <activity
+66            android:name="com.fisis.fortune.app.fortunetell.MainActivity"
+67            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+68            android:exported="true"
+69            android:hardwareAccelerated="true"
+70            android:launchMode="singleTop"
+71            android:theme="@style/LaunchTheme"
+72            android:windowSoftInputMode="adjustResize" >
+73
+74            <!--
+75                 Specifies an Android theme to apply to this Activity as soon as
+76                 the Android process has started. This theme is visible to the user
+77                 while the Flutter UI initializes. After that, this theme continues
+78                 to determine the Window background behind the Flutter UI.
+79            -->
+80            <meta-data
+81                android:name="io.flutter.embedding.android.NormalTheme"
+82                android:resource="@style/NormalTheme" />
+83
+84            <intent-filter>
+85                <action android:name="android.intent.action.MAIN" />
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+88            </intent-filter>
+89        </activity>
+90        <!--
+91             Don't delete the meta-data below.
+92             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+93        -->
+94        <meta-data
+95            android:name="flutterEmbedding"
+96            android:value="2" />
+97
+98        <service
+98-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+99            android:name="com.google.firebase.components.ComponentDiscoveryService"
+99-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+100            android:directBootAware="true"
+100-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+101            android:exported="false" >
+101-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:10:13-37
 102            <meta-data
-102-->[:firebase_storage] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
-103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-103-->[:firebase_storage] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+102-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+103-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
 104                android:value="com.google.firebase.components.ComponentRegistrar" />
-104-->[:firebase_storage] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+104-->[:cloud_firestore] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 105            <meta-data
-105-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
-106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-106-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
+105-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+106-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 107                android:value="com.google.firebase.components.ComponentRegistrar" />
-107-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
+107-->[:firebase_auth] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 108            <meta-data
-108-->[:firebase_core] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
-109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-109-->[:firebase_core] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+108-->[:firebase_storage] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+109-->[:firebase_storage] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
 110                android:value="com.google.firebase.components.ComponentRegistrar" />
-110-->[:firebase_core] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+110-->[:firebase_storage] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 111            <meta-data
-111-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
-112                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
-112-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+111-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
+112                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+112-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
 113                android:value="com.google.firebase.components.ComponentRegistrar" />
-113-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+113-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
 114            <meta-data
-114-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:14:13-16:85
-115                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-115-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:15:17-113
+114-->[:firebase_core] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+115                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+115-->[:firebase_core] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 116                android:value="com.google.firebase.components.ComponentRegistrar" />
-116-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:16:17-82
+116-->[:firebase_core] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 117            <meta-data
-117-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
-118                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-118-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+117-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+118                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+118-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
 119                android:value="com.google.firebase.components.ComponentRegistrar" />
-119-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+119-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
 120            <meta-data
-120-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:55:13-57:85
-121                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-121-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:56:17-119
+120-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:14:13-16:85
+121                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+121-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:15:17-113
 122                android:value="com.google.firebase.components.ComponentRegistrar" />
-122-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:57:17-82
+122-->[com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:16:17-82
 123            <meta-data
-123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
-124                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-124-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+123-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+124                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+124-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
 125                android:value="com.google.firebase.components.ComponentRegistrar" />
-125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+125-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
 126            <meta-data
-126-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fabe7d7698064912011c3f275f57ac07\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:19:13-21:85
-127                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-127-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fabe7d7698064912011c3f275f57ac07\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:20:17-111
+126-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:55:13-57:85
+127                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+127-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:56:17-119
 128                android:value="com.google.firebase.components.ComponentRegistrar" />
-128-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fabe7d7698064912011c3f275f57ac07\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:21:17-82
+128-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:57:17-82
 129            <meta-data
-129-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\82b3d7a5d1802e9fa70b6c75bdf3591c\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
-130                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-130-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\82b3d7a5d1802e9fa70b6c75bdf3591c\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+129-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+130                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
 131                android:value="com.google.firebase.components.ComponentRegistrar" />
-131-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\82b3d7a5d1802e9fa70b6c75bdf3591c\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
 132            <meta-data
-132-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\9fe8d1b46c71e9b954a639d6f927ec09\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
-133                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-133-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\9fe8d1b46c71e9b954a639d6f927ec09\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+132-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fabe7d7698064912011c3f275f57ac07\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:19:13-21:85
+133                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+133-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fabe7d7698064912011c3f275f57ac07\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:20:17-111
 134                android:value="com.google.firebase.components.ComponentRegistrar" />
-134-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\9fe8d1b46c71e9b954a639d6f927ec09\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+134-->[com.google.firebase:firebase-firestore:24.4.3] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fabe7d7698064912011c3f275f57ac07\transformed\jetified-firebase-firestore-24.4.3\AndroidManifest.xml:21:17-82
 135            <meta-data
-135-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f7ca06f63c0030499ca3661ec9c77550\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:17:13-19:85
-136                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-136-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f7ca06f63c0030499ca3661ec9c77550\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:18:17-127
+135-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\82b3d7a5d1802e9fa70b6c75bdf3591c\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+136                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+136-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\82b3d7a5d1802e9fa70b6c75bdf3591c\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
 137                android:value="com.google.firebase.components.ComponentRegistrar" />
-137-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f7ca06f63c0030499ca3661ec9c77550\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:19:17-82
+137-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\82b3d7a5d1802e9fa70b6c75bdf3591c\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
 138            <meta-data
-138-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3cf916311ea46cca191077538f98d969\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
-139                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-139-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3cf916311ea46cca191077538f98d969\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+138-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\9fe8d1b46c71e9b954a639d6f927ec09\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+139                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+139-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\9fe8d1b46c71e9b954a639d6f927ec09\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
 140                android:value="com.google.firebase.components.ComponentRegistrar" />
-140-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3cf916311ea46cca191077538f98d969\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
-141        </service>
-142        <service
-142-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
-143            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-143-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
-144            android:exported="false"
-144-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
-145            android:permission="android.permission.BIND_JOB_SERVICE" />
-145-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
-146        <service
-146-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
-147            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-147-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
-148            android:exported="false" >
-148-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
-149            <intent-filter>
-149-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
-150                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-150-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
-150-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
-151            </intent-filter>
-152        </service>
-153
-154        <receiver
-154-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
-155            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-155-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
-156            android:exported="true"
-156-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
-157            android:permission="com.google.android.c2dm.permission.SEND" >
-157-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
-158            <intent-filter>
-158-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
-159                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-159-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
-159-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
-160            </intent-filter>
-161        </receiver>
-162
-163        <provider
-163-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
-164            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-164-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
-165            android:authorities="com.fisis.fortune.app.fortunetell.flutterfirebasemessaginginitprovider"
-165-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
-166            android:exported="false"
-166-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
-167            android:initOrder="99" />
-167-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
-168        <provider
-168-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
-169            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-169-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
-170            android:authorities="com.fisis.fortune.app.fortunetell.flutter.image_provider"
-170-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
-171            android:exported="false"
-171-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
-172            android:grantUriPermissions="true" >
-172-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
-173            <meta-data
-173-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
-174                android:name="android.support.FILE_PROVIDER_PATHS"
-174-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
-175                android:resource="@xml/flutter_image_picker_file_paths" />
-175-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
-176        </provider>
-177
-178        <receiver
-178-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:39
-179            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
-179-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-89
-180            android:exported="true" />
-180-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
-181        <receiver
-181-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-20:39
-182            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
-182-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-92
-183            android:exported="true" />
-183-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-36
+140-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\9fe8d1b46c71e9b954a639d6f927ec09\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f7ca06f63c0030499ca3661ec9c77550\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:17:13-19:85
+142                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+142-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f7ca06f63c0030499ca3661ec9c77550\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:18:17-127
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-installations:17.1.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f7ca06f63c0030499ca3661ec9c77550\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:19:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3cf916311ea46cca191077538f98d969\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+145                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+145-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3cf916311ea46cca191077538f98d969\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3cf916311ea46cca191077538f98d969\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+147        </service>
+148        <service
+148-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
+149            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+149-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
+150            android:exported="false"
+150-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+151            android:permission="android.permission.BIND_JOB_SERVICE" />
+151-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
+152        <service
+152-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
+153            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+153-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
+154            android:exported="false" >
+154-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+155            <intent-filter>
+155-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+156                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+156-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+156-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+157            </intent-filter>
+158        </service>
+159
+160        <receiver
+160-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
+161            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+161-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
+162            android:exported="true"
+162-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+163            android:permission="com.google.android.c2dm.permission.SEND" >
+163-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
+164            <intent-filter>
+164-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+165                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+165-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+165-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+166            </intent-filter>
+167        </receiver>
+168
+169        <provider
+169-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
+170            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+170-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
+171            android:authorities="com.fisis.fortune.app.fortunetell.flutterfirebasemessaginginitprovider"
+171-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
+172            android:exported="false"
+172-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+173            android:initOrder="99" />
+173-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
+174        <provider
+174-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+175            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+175-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+176            android:authorities="com.fisis.fortune.app.fortunetell.flutter.image_provider"
+176-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+177            android:exported="false"
+177-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+178            android:grantUriPermissions="true" >
+178-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+179            <meta-data
+179-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+180                android:name="android.support.FILE_PROVIDER_PATHS"
+180-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+181                android:resource="@xml/flutter_image_picker_file_paths" />
+181-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+182        </provider>
+183
 184        <receiver
-184-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-23:39
-185            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
-185-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-92
+184-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:39
+185            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+185-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-89
 186            android:exported="true" />
-186-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+186-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
 187        <receiver
-187-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-38:20
-188            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
-188-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-87
-189            android:enabled="true"
-189-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-35
-190            android:exported="true" >
-190-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-36
-191            <intent-filter>
-191-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37:29
-192                <category android:name="android.intent.category.DEFAULT" />
-192-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
-192-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
-193
-194                <action android:name="android.intent.action.BOOT_COMPLETED" />
-194-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-79
-194-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-76
-195                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-195-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-86
-195-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:32:25-83
-196                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-196-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-84
-196-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-81
-197                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-197-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:17-82
-197-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:25-79
-198                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-198-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-82
-198-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:25-79
-199                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
-199-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:36:17-107
-199-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:36:25-104
-200            </intent-filter>
-201        </receiver>
-202
-203        <service
-203-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:72
-204            android:name="me.carda.awesome_notifications.DartBackgroundService"
-204-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-80
-205            android:exported="false"
-205-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-37
-206            android:permission="android.permission.BIND_JOB_SERVICE" />
-206-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-69
-207        <service
-207-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-49:43
-208            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
-208-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-90
-209            android:enabled="true"
-209-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-35
-210            android:exported="false"
-210-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-37
-211            android:foregroundServiceType="phoneCall"
-211-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-54
-212            android:stopWithTask="true" />
-212-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-40
-213
-214        <receiver
-214-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
-215            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
-215-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
-216            android:exported="false" />
-216-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
-217        <receiver
-217-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
-218            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-218-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
-219            android:exported="false" />
-219-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+187-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-20:39
+188            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+188-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-92
+189            android:exported="true" />
+189-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-36
+190        <receiver
+190-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-23:39
+191            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+191-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-92
+192            android:exported="true" />
+192-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+193        <receiver
+193-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-38:20
+194            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+194-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-87
+195            android:enabled="true"
+195-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-35
+196            android:exported="true" >
+196-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-36
+197            <intent-filter>
+197-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37:29
+198                <category android:name="android.intent.category.DEFAULT" />
+198-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
+198-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
+199
+200                <action android:name="android.intent.action.BOOT_COMPLETED" />
+200-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-79
+200-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-76
+201                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+201-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-86
+201-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:32:25-83
+202                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+202-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-84
+202-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-81
+203                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+203-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:17-82
+203-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:25-79
+204                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+204-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-82
+204-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:25-79
+205                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+205-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:36:17-107
+205-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:36:25-104
+206            </intent-filter>
+207        </receiver>
+208
+209        <service
+209-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:72
+210            android:name="me.carda.awesome_notifications.DartBackgroundService"
+210-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-80
+211            android:exported="false"
+211-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-37
+212            android:permission="android.permission.BIND_JOB_SERVICE" />
+212-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-69
+213        <service
+213-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-49:43
+214            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+214-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-90
+215            android:enabled="true"
+215-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-35
+216            android:exported="false"
+216-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-37
+217            android:foregroundServiceType="phoneCall"
+217-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-54
+218            android:stopWithTask="true" />
+218-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-40
+219
 220        <receiver
-220-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
-221            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
-221-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
-222            android:exported="false" >
-222-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
-223            <intent-filter>
-223-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
-224                <action android:name="android.intent.action.BOOT_COMPLETED" />
-224-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-79
-224-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-76
-225                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-225-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-84
-225-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-81
-226                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-226-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:17-82
-226-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:25-79
-227                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-227-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-82
-227-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:25-79
-228            </intent-filter>
-229        </receiver>
-230
-231        <activity
-231-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
-232            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-232-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
-233            android:exported="false"
-233-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
-234            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-234-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
-235
-236        <provider
-236-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
-237            android:name="androidx.startup.InitializationProvider"
-237-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
-238            android:authorities="com.fisis.fortune.app.fortunetell.androidx-startup"
-238-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
-239            android:exported="false" >
-239-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
-240            <meta-data
-240-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
-241                android:name="androidx.work.WorkManagerInitializer"
-241-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
-242                android:value="androidx.startup" />
-242-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
-243            <meta-data
-243-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-244                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-244-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-245                android:value="androidx.startup" />
-245-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-246            <meta-data
-246-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\7044730f39ec1fe8e71f12f898ae686d\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:31:13-33:52
-247                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-247-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\7044730f39ec1fe8e71f12f898ae686d\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:32:17-78
-248                android:value="androidx.startup" />
-248-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\7044730f39ec1fe8e71f12f898ae686d\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:33:17-49
-249        </provider>
-250
-251        <service
-251-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
-252            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-252-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
-253            android:directBootAware="false"
-253-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
-254            android:enabled="@bool/enable_system_alarm_service_default"
-254-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
-255            android:exported="false" />
-255-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
-256        <service
-256-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
-257            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-257-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
-258            android:directBootAware="false"
-258-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
-259            android:enabled="@bool/enable_system_job_service_default"
-259-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
-260            android:exported="true"
-260-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
-261            android:permission="android.permission.BIND_JOB_SERVICE" />
-261-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
-262        <service
-262-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
-263            android:name="androidx.work.impl.foreground.SystemForegroundService"
-263-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
-264            android:directBootAware="false"
-264-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
-265            android:enabled="@bool/enable_system_foreground_service_default"
-265-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
-266            android:exported="false" />
-266-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
-267
-268        <receiver
-268-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
-269            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-269-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
-270            android:directBootAware="false"
-270-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
-271            android:enabled="true"
-271-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
-272            android:exported="false" />
-272-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
-273        <receiver
-273-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
-274            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-274-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
-275            android:directBootAware="false"
-275-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
-276            android:enabled="false"
-276-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
-277            android:exported="false" >
-277-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
-278            <intent-filter>
-278-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
-279                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-279-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
-279-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
-280                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-280-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
-280-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
-281            </intent-filter>
-282        </receiver>
-283        <receiver
-283-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
-284            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-284-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
-285            android:directBootAware="false"
-285-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
-286            android:enabled="false"
-286-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
-287            android:exported="false" >
-287-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
-288            <intent-filter>
-288-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
-289                <action android:name="android.intent.action.BATTERY_OKAY" />
-289-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
-289-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
-290                <action android:name="android.intent.action.BATTERY_LOW" />
-290-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
-290-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
-291            </intent-filter>
-292        </receiver>
-293        <receiver
-293-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
-294            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-294-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
-295            android:directBootAware="false"
-295-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
-296            android:enabled="false"
-296-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
-297            android:exported="false" >
-297-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
-298            <intent-filter>
-298-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
-299                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-299-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
-299-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
-300                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-300-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
-300-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
-301            </intent-filter>
-302        </receiver>
+220-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+221            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+221-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+222            android:exported="false" />
+222-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+223        <receiver
+223-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+224            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+224-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+225            android:exported="false" />
+225-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+226        <receiver
+226-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+227            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+227-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+228            android:exported="false" >
+228-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+229            <intent-filter>
+229-->[:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+230                <action android:name="android.intent.action.BOOT_COMPLETED" />
+230-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-79
+230-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-76
+231                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+231-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-84
+231-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-81
+232                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+232-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:17-82
+232-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:25-79
+233                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+233-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-82
+233-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:25-79
+234            </intent-filter>
+235        </receiver>
+236
+237        <activity
+237-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+238            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+238-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+239            android:exported="false"
+239-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+240            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+240-->[:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+241        <!--
+242           Declares a provider which allows us to store files to share in
+243           '.../caches/share_plus' and grant the receiving action access
+244        -->
+245        <provider
+245-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:20
+246            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+246-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-77
+247            android:authorities="com.fisis.fortune.app.fortunetell.flutter.share_provider"
+247-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-74
+248            android:exported="false"
+248-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+249            android:grantUriPermissions="true" >
+249-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-47
+250            <meta-data
+250-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+251                android:name="android.support.FILE_PROVIDER_PATHS"
+251-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+252                android:resource="@xml/flutter_share_file_paths" />
+252-->[:image_picker_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+253        </provider>
+254        <!--
+255           This manifest declared broadcast receiver allows us to use an explicit
+256           Intent when creating a PendingItent to be informed of the user's choice
+257        -->
+258        <receiver
+258-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-34:20
+259            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+259-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-82
+260            android:exported="true" >
+260-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+261            <intent-filter>
+261-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-33:29
+262                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+262-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-65
+262-->[:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:25-62
+263            </intent-filter>
+264        </receiver>
+265
+266        <provider
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+267            android:name="androidx.startup.InitializationProvider"
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+268            android:authorities="com.fisis.fortune.app.fortunetell.androidx-startup"
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+269            android:exported="false" >
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+270            <meta-data
+270-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+271                android:name="androidx.work.WorkManagerInitializer"
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+272                android:value="androidx.startup" />
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+273            <meta-data
+273-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+274                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+274-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+275                android:value="androidx.startup" />
+275-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+276            <meta-data
+276-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\7044730f39ec1fe8e71f12f898ae686d\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:31:13-33:52
+277                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+277-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\7044730f39ec1fe8e71f12f898ae686d\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:32:17-78
+278                android:value="androidx.startup" />
+278-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\7044730f39ec1fe8e71f12f898ae686d\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:33:17-49
+279        </provider>
+280
+281        <service
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+282            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+283            android:directBootAware="false"
+283-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+284            android:enabled="@bool/enable_system_alarm_service_default"
+284-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+285            android:exported="false" />
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+286        <service
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+287            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+288            android:directBootAware="false"
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+289            android:enabled="@bool/enable_system_job_service_default"
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+290            android:exported="true"
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+291            android:permission="android.permission.BIND_JOB_SERVICE" />
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+292        <service
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+293            android:name="androidx.work.impl.foreground.SystemForegroundService"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+294            android:directBootAware="false"
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+295            android:enabled="@bool/enable_system_foreground_service_default"
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+296            android:exported="false" />
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+297
+298        <receiver
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+299            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+299-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+300            android:directBootAware="false"
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+301            android:enabled="true"
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+302            android:exported="false" />
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
 303        <receiver
-303-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
-304            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-304-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+304            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
 305            android:directBootAware="false"
-305-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
 306            android:enabled="false"
-306-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
 307            android:exported="false" >
-307-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
 308            <intent-filter>
-308-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
-309                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-309-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
-309-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
-310            </intent-filter>
-311        </receiver>
-312        <receiver
-312-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
-313            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-313-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
-314            android:directBootAware="false"
-314-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
-315            android:enabled="false"
-315-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
-316            android:exported="false" >
-316-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
-317            <intent-filter>
-317-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
-318                <action android:name="android.intent.action.BOOT_COMPLETED" />
-318-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-79
-318-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-76
-319                <action android:name="android.intent.action.TIME_SET" />
-319-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
-319-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
-320                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-320-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
-320-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+309                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+310                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+311            </intent-filter>
+312        </receiver>
+313        <receiver
+313-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+314            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+314-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+315            android:directBootAware="false"
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+316            android:enabled="false"
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+317            android:exported="false" >
+317-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+318            <intent-filter>
+318-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+319                <action android:name="android.intent.action.BATTERY_OKAY" />
+319-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+319-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+320                <action android:name="android.intent.action.BATTERY_LOW" />
+320-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+320-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
 321            </intent-filter>
 322        </receiver>
 323        <receiver
-323-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
-324            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-324-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+323-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+324            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
 325            android:directBootAware="false"
-325-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
-326            android:enabled="@bool/enable_system_alarm_service_default"
-326-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+326            android:enabled="false"
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
 327            android:exported="false" >
-327-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+327-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
 328            <intent-filter>
-328-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
-329                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-329-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
-329-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
-330            </intent-filter>
-331        </receiver>
-332        <receiver
-332-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
-333            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-333-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
-334            android:directBootAware="false"
-334-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
-335            android:enabled="true"
-335-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
-336            android:exported="true"
-336-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
-337            android:permission="android.permission.DUMP" >
-337-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+328-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+329                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+329-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+329-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+330                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+330-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+330-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+331            </intent-filter>
+332        </receiver>
+333        <receiver
+333-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+334            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+334-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+335            android:directBootAware="false"
+335-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+336            android:enabled="false"
+336-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+337            android:exported="false" >
+337-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
 338            <intent-filter>
-338-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
-339                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-339-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
-339-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+338-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+339                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+339-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+339-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
 340            </intent-filter>
 341        </receiver>
 342        <receiver
-342-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:31:9-38:20
-343            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-343-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:32:13-78
-344            android:exported="true"
-344-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:33:13-36
-345            android:permission="com.google.android.c2dm.permission.SEND" >
-345-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:34:13-73
-346            <intent-filter>
-346-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
-347                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-347-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
-347-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
-348            </intent-filter>
-349        </receiver>
-350        <!--
-351             FirebaseMessagingService performs security checks at runtime,
-352             but set to not exported to explicitly avoid allowing another app to call it.
-353        -->
-354        <service
-354-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:44:9-51:19
-355            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-355-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:45:13-82
-356            android:directBootAware="true"
-356-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:46:13-43
+342-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+343            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+343-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+344            android:directBootAware="false"
+344-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+345            android:enabled="false"
+345-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+346            android:exported="false" >
+346-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+347            <intent-filter>
+347-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+348                <action android:name="android.intent.action.BOOT_COMPLETED" />
+348-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-79
+348-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-76
+349                <action android:name="android.intent.action.TIME_SET" />
+349-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+349-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+350                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+350-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+350-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+351            </intent-filter>
+352        </receiver>
+353        <receiver
+353-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+354            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+354-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+355            android:directBootAware="false"
+355-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+356            android:enabled="@bool/enable_system_alarm_service_default"
+356-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
 357            android:exported="false" >
-357-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:47:13-37
-358            <intent-filter android:priority="-500" >
-358-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
-359                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-359-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
-359-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+357-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+358            <intent-filter>
+358-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+359                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+359-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+359-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
 360            </intent-filter>
-361        </service>
-362
-363        <receiver
-363-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
-364            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-364-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+361        </receiver>
+362        <receiver
+362-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+363            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+363-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+364            android:directBootAware="false"
+364-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
 365            android:enabled="true"
-365-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
-366            android:exported="false" >
-366-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
-367        </receiver>
-368
-369        <service
-369-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
-370            android:name="com.google.android.gms.measurement.AppMeasurementService"
-370-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
-371            android:enabled="true"
-371-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
-372            android:exported="false" />
-372-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
-373        <service
-373-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
-374            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-374-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
-375            android:enabled="true"
-375-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
-376            android:exported="false"
-376-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
-377            android:permission="android.permission.BIND_JOB_SERVICE" />
-377-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
-378
-379        <activity
-379-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
-380            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-380-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
-381            android:excludeFromRecents="true"
-381-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
-382            android:exported="true"
-382-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
-383            android:launchMode="singleTask"
-383-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
-384            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-384-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
-385            <intent-filter>
-385-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
-386                <action android:name="android.intent.action.VIEW" />
-386-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-386-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
-387
-388                <category android:name="android.intent.category.DEFAULT" />
-388-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
-388-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
-389                <category android:name="android.intent.category.BROWSABLE" />
-389-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-389-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
-390
-391                <data
-391-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
-392                    android:host="firebase.auth"
-392-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
-393                    android:path="/"
-393-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
-394                    android:scheme="genericidp" />
-394-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
-395            </intent-filter>
-396        </activity>
-397        <activity
-397-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
-398            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-398-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
-399            android:excludeFromRecents="true"
-399-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
-400            android:exported="true"
-400-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
-401            android:launchMode="singleTask"
-401-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
-402            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-402-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
-403            <intent-filter>
-403-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
-404                <action android:name="android.intent.action.VIEW" />
-404-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-404-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
-405
-406                <category android:name="android.intent.category.DEFAULT" />
-406-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
-406-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
-407                <category android:name="android.intent.category.BROWSABLE" />
-407-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-407-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+365-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+366            android:exported="true"
+366-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+367            android:permission="android.permission.DUMP" >
+367-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+368            <intent-filter>
+368-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+369                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+369-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+369-->[androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+370            </intent-filter>
+371        </receiver>
+372        <receiver
+372-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:31:9-38:20
+373            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+373-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:32:13-78
+374            android:exported="true"
+374-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:33:13-36
+375            android:permission="com.google.android.c2dm.permission.SEND" >
+375-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:34:13-73
+376            <intent-filter>
+376-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+377                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+377-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+377-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+378            </intent-filter>
+379        </receiver>
+380        <!--
+381             FirebaseMessagingService performs security checks at runtime,
+382             but set to not exported to explicitly avoid allowing another app to call it.
+383        -->
+384        <service
+384-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:44:9-51:19
+385            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+385-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:45:13-82
+386            android:directBootAware="true"
+386-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:46:13-43
+387            android:exported="false" >
+387-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:47:13-37
+388            <intent-filter android:priority="-500" >
+388-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+389                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+389-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+389-->[:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+390            </intent-filter>
+391        </service>
+392
+393        <receiver
+393-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+394            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+394-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+395            android:enabled="true"
+395-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+396            android:exported="false" >
+396-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+397        </receiver>
+398
+399        <service
+399-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+400            android:name="com.google.android.gms.measurement.AppMeasurementService"
+400-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+401            android:enabled="true"
+401-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+402            android:exported="false" />
+402-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+403        <service
+403-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+404            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+404-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+405            android:enabled="true"
+405-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+406            android:exported="false"
+406-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+407            android:permission="android.permission.BIND_JOB_SERVICE" />
+407-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
 408
-409                <data
-409-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
-410                    android:host="firebase.auth"
-410-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
-411                    android:path="/"
-411-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
-412                    android:scheme="recaptcha" />
-412-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
-413            </intent-filter>
-414        </activity>
-415
-416        <provider
-416-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
-417            android:name="com.google.firebase.provider.FirebaseInitProvider"
-417-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
-418            android:authorities="com.fisis.fortune.app.fortunetell.firebaseinitprovider"
-418-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
-419            android:directBootAware="true"
-419-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
-420            android:exported="false"
-420-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
-421            android:initOrder="100" />
-421-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
-422
-423        <activity
-423-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-424            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-424-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-425            android:exported="false"
-425-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-426            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-426-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-427
-428        <meta-data
-428-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4c5cefc4bced38f73a0cc4404fde07b9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-429            android:name="com.google.android.gms.version"
-429-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4c5cefc4bced38f73a0cc4404fde07b9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-430            android:value="@integer/google_play_services_version" />
-430-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4c5cefc4bced38f73a0cc4404fde07b9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-431
-432        <uses-library
-432-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-433            android:name="androidx.window.extensions"
-433-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-434            android:required="false" />
-434-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-435        <uses-library
-435-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-436            android:name="androidx.window.sidecar"
-436-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-437            android:required="false" />
-437-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+409        <activity
+409-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+410            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+410-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+411            android:excludeFromRecents="true"
+411-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+412            android:exported="true"
+412-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+413            android:launchMode="singleTask"
+413-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+414            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+414-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+415            <intent-filter>
+415-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+416                <action android:name="android.intent.action.VIEW" />
+416-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+416-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+417
+418                <category android:name="android.intent.category.DEFAULT" />
+418-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
+418-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
+419                <category android:name="android.intent.category.BROWSABLE" />
+419-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+419-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+420
+421                <data
+421-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+422                    android:host="firebase.auth"
+422-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+423                    android:path="/"
+423-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+424                    android:scheme="genericidp" />
+424-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+425            </intent-filter>
+426        </activity>
+427        <activity
+427-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+428            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+428-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+429            android:excludeFromRecents="true"
+429-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+430            android:exported="true"
+430-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+431            android:launchMode="singleTask"
+431-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+432            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+432-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+433            <intent-filter>
+433-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+434                <action android:name="android.intent.action.VIEW" />
+434-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+434-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+435
+436                <category android:name="android.intent.category.DEFAULT" />
+436-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
+436-->[:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
+437                <category android:name="android.intent.category.BROWSABLE" />
+437-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+437-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
 438
-439        <service
-439-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
-440            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-440-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
-441            android:exported="false" >
-441-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
-442            <meta-data
-442-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
-443                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-443-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
-444                android:value="cct" />
-444-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
-445        </service>
-446        <service
-446-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
-447            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-447-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
-448            android:exported="false"
-448-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
-449            android:permission="android.permission.BIND_JOB_SERVICE" >
-449-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
-450        </service>
-451
-452        <receiver
-452-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
-453            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-453-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
-454            android:exported="false" />
-454-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
-455
-456        <service
-456-->[androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-457            android:name="androidx.room.MultiInstanceInvalidationService"
-457-->[androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-458            android:directBootAware="true"
-458-->[androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-459            android:exported="false" />
-459-->[androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-460    </application>
+439                <data
+439-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+440                    android:host="firebase.auth"
+440-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+441                    android:path="/"
+441-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+442                    android:scheme="recaptcha" />
+442-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a9da42da7989287787340e3f7e46327\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+443            </intent-filter>
+444        </activity>
+445
+446        <provider
+446-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+447            android:name="com.google.firebase.provider.FirebaseInitProvider"
+447-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+448            android:authorities="com.fisis.fortune.app.fortunetell.firebaseinitprovider"
+448-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+449            android:directBootAware="true"
+449-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+450            android:exported="false"
+450-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+451            android:initOrder="100" />
+451-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+452
+453        <activity
+453-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+454            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+454-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+455            android:exported="false"
+455-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+456            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+456-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+457
+458        <meta-data
+458-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4c5cefc4bced38f73a0cc4404fde07b9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+459            android:name="com.google.android.gms.version"
+459-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4c5cefc4bced38f73a0cc4404fde07b9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+460            android:value="@integer/google_play_services_version" />
+460-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4c5cefc4bced38f73a0cc4404fde07b9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
 461
-462</manifest>
+462        <uses-library
+462-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+463            android:name="androidx.window.extensions"
+463-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+464            android:required="false" />
+464-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+465        <uses-library
+465-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+466            android:name="androidx.window.sidecar"
+466-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+467            android:required="false" />
+467-->[androidx.window:window:1.0.0-beta04] C:\Users\Tremglobal78\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+468
+469        <service
+469-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+470            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+470-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+471            android:exported="false" >
+471-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+472            <meta-data
+472-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+473                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+473-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+474                android:value="cct" />
+474-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b575f61dd6993583ac7c69c3796215af\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+475        </service>
+476        <service
+476-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+477            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+477-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+478            android:exported="false"
+478-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+479            android:permission="android.permission.BIND_JOB_SERVICE" >
+479-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+480        </service>
+481
+482        <receiver
+482-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+483            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+483-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+484            android:exported="false" />
+484-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+485
+486        <service
+486-->[androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+487            android:name="androidx.room.MultiInstanceInvalidationService"
+487-->[androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+488            android:directBootAware="true"
+488-->[androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+489            android:exported="false" />
+489-->[androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+490    </application>
+491
+492</manifest>

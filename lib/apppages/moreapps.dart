@@ -1,8 +1,10 @@
 import 'dart:convert';
 
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:fortunetell/apppages/aboutus.dart';
 import 'package:fortunetell/apppages/homepage.dart';
+import 'package:fortunetell/apppages/signdetails.dart';
 import 'package:fortunetell/apppages/tarotpage.dart';
 import 'package:fortunetell/apppages/wishcards.dart';
 import 'package:fortunetell/core/frotedglass.dart';
@@ -131,10 +133,11 @@ class _MoreAppsState extends State<MoreApps> {
                     InkWell(
                       onTap: () {
                         Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) =>
-                                    const WishCardsPageView()));
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const SignDetailsPage(),
+                          ),
+                        );
                       },
                       child: const MenuButton(
                         name: 'Burçlar',
@@ -163,10 +166,22 @@ class _MoreAppsState extends State<MoreApps> {
                     ),
                     InkWell(
                       onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const HomePage()));
+                        showDialog(
+                            context: context,
+                            builder: (context) => AlertDialog(
+                                  content: const Text(
+                                      'Rüya tabirleri yakında sizlerle olacak. Güncellemeleri takip edin...'),
+                                  actions: [
+                                    ElevatedButton(
+                                        style: ElevatedButton.styleFrom(
+                                          backgroundColor: Colors.black,
+                                        ),
+                                        onPressed: () {
+                                          Navigator.pop(context);
+                                        },
+                                        child: const Text('Tamam'))
+                                  ],
+                                ));
                       },
                       child: const MenuButton(
                         name: 'Rüya Tabirleri',
@@ -255,8 +270,16 @@ class _MoreAppsState extends State<MoreApps> {
                                               TextButton(
                                                   onPressed: () =>
                                                       Navigator.pop(context),
-                                                  child: const Text("Kapat")),
+                                                  child: const Text(
+                                                    "Kapat",
+                                                    style: TextStyle(
+                                                        color: Colors.black),
+                                                  )),
                                               ElevatedButton(
+                                                  style:
+                                                      ElevatedButton.styleFrom(
+                                                          backgroundColor:
+                                                              Colors.black),
                                                   onPressed: () {
                                                     sendEmail();
                                                     Navigator.pop(context);
@@ -301,6 +324,70 @@ class _MoreAppsState extends State<MoreApps> {
                         imgname: 'assets/bottomnavbaritems/insanlar.png',
                       ),
                     ),
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.only(
+                          left: 20,
+                        ),
+                        child: FrostedGlassView(
+                          theheight: 110,
+                          thewidth: 200,
+                          thechild: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              AnimatedTextKit(
+                                repeatForever: true,
+                                animatedTexts: [
+                                  RotateAnimatedText(
+                                    'TAROT FALI',
+                                    textStyle: GoogleFonts.sigmarOne(
+                                      color: Colors.black87,
+                                      fontSize: 30,
+                                    ),
+                                  ),
+                                  RotateAnimatedText(
+                                    'GÜNLÜK FAL',
+                                    textStyle: GoogleFonts.sigmarOne(
+                                      color: Colors.black87,
+                                      fontSize: 30,
+                                    ),
+                                  ),
+                                  RotateAnimatedText(
+                                    'BURÇ YORUMLARI',
+                                    textStyle: GoogleFonts.sigmarOne(
+                                      color: Colors.black87,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  RotateAnimatedText(
+                                    'RÜYA TABİRLERİ',
+                                    textStyle: GoogleFonts.sigmarOne(
+                                      color: Colors.black87,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  RotateAnimatedText(
+                                    'DİLEK KARTLARI',
+                                    textStyle: GoogleFonts.sigmarOne(
+                                      color: Colors.black87,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  RotateAnimatedText(
+                                    'KAHVE FALI',
+                                    textStyle: GoogleFonts.sigmarOne(
+                                      color: Colors.black87,
+                                      fontSize: 30,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    )
                   ],
                 ),
               ),

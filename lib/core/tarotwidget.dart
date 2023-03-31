@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:fortunetell/core/tarotcards.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class TarotFortuneWidget extends StatefulWidget {
@@ -333,6 +334,23 @@ class _TarotFortuneWidgetState extends State<TarotFortuneWidget> {
                 )),
               ),
               actions: [
+                ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.black,
+                    ),
+                    onPressed: () {
+                      Share.share(newExplain, subject: 'Tarot Falım');
+                    },
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: const [
+                        Padding(
+                          padding: EdgeInsets.only(right: 10),
+                          child: Icon(Icons.share),
+                        ),
+                        Text('Paylaş'),
+                      ],
+                    )),
                 TextButton(
                     onPressed: () {
                       Navigator.pop(dialogcontext);

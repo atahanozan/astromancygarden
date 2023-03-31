@@ -6,6 +6,7 @@ import 'package:fortunetell/core/languages.dart';
 import 'package:fortunetell/core/tarotwidget.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:like_button/like_button.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class TarotPage extends StatefulWidget {
@@ -231,7 +232,28 @@ class _TarotPageState extends State<TarotPage> {
                           Text(
                             newExplain,
                             style: Theme.of(context).textTheme.bodyMedium,
-                          )
+                          ),
+                          ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.black,
+                              ),
+                              onPressed: () {
+                                Share.share(newExplain, subject: 'Tarot Falım');
+                              },
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: const [
+                                  Padding(
+                                    padding: EdgeInsets.only(right: 10),
+                                    child: Icon(Icons.share),
+                                  ),
+                                  Text('Paylaş'),
+                                ],
+                              )),
+                          Text(
+                            'Falını diğer arkadaşlarınla da paylaş...',
+                            style: Theme.of(context).textTheme.bodySmall,
+                          ),
                         ],
                       )),
                 ],

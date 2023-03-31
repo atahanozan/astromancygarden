@@ -19,6 +19,8 @@ MERGED from [:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_pr
 MERGED from [:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-32:19
 MERGED from [:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
 MERGED from [:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-35:19
+MERGED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-35:19
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:7:5-15:19
@@ -83,8 +85,8 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2f15c8034f6aea8b10122d8249b4c9b9\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:25:5-39:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\42e6491f5f37d2219727138ee1097e2e\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\42e6491f5f37d2219727138ee1097e2e\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\7044730f39ec1fe8e71f12f898ae686d\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:25:5-35:19
@@ -94,7 +96,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Tremglobal78\.grad
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\dba112ebc3be4810c3cce06f5d27b05a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\dba112ebc3be4810c3cce06f5d27b05a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\42e6491f5f37d2219727138ee1097e2e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:name
 		INJECTED from C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\android\app\src\main\AndroidManifest.xml
 manifest
@@ -115,6 +117,7 @@ MERGED from [:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_pr
 MERGED from [:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
 MERGED from [:path_provider_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:shared_preferences_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:2:1-20:12
@@ -164,7 +167,6 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\57cbb2e355194bd055bd1f31c45b279d\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.media:media:1.6.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\ea885537077ddfdc149c7461459acf06\transformed\media-1.6.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f9d00c0ad06f3737f5584e3a1be6cac9\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\e385bdee40baaaa7a0a4bce53f0bcd30\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\a84354740ec2c411c4bd165c1da3779c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d90e72a9c87b1ff9e3ce9c82e7055416\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
@@ -172,7 +174,8 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Tremglobal78\.gradle\c
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\dbd64a2b2509b4eede058e36eae5b873\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\457bb483c5218f1a91f9228d8f054c6e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3b26863b4e469c0c4cb66589fb2fec23\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\42e6491f5f37d2219727138ee1097e2e\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\5ead7ed1217e7cbec87eca08e3f98d8e\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\Tremglobal78\.gradle\caches\transforms-3\378fd3bb25b9b46dc9aa3c7a19ee50c1\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\514a26f28f4eb64bcee3a03cb31dc92a\transformed\localbroadcastmanager-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
@@ -188,15 +191,15 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Tremglobal78\.
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\352bbd7ad433b437198588800676e258\transformed\lifecycle-livedata-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\c3b1d64f671d9d2e9c151360cbb7e9a8\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\15a75b17e9ed5186ed3ecb0abbf00ada\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\dba112ebc3be4810c3cce06f5d27b05a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\ab55a6e80c06b203d2c74f8f846d4c22\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\dba112ebc3be4810c3cce06f5d27b05a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\5ae6f4b94732f87c6aa0a18828b436b8\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\672711521cad9066ef18c85548a4e7d8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\4a049147dc5e7903cb5c179f60445ab7\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\65d538dfedf0677ee36f1a64e026a5d0\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\72370067b16aa4d8949d5ecaa40d537a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1d9b4dd3b63ff8730ebec3f2f4290d0a\transformed\jetified-grpc-android-1.50.2\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d3c4ef3a818b940dfd27dbf731d970c7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\910b5545868838a1a89f04d7e331c4bc\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:2:1-52:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\a2e3e084b9e5c3c8ed90d6c93add1b14\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 INJECTED from C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\android\app\src\debug\AndroidManifest.xml:1:1-8:12
@@ -322,6 +325,8 @@ MERGED from [:path_provider_android] C:\Users\Tremglobal78\Desktop\ozan_projeler
 MERGED from [:path_provider_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:shared_preferences_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:shared_preferences_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0131fc0741f18b1316f82d5c3c63e061\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:5:5-44
@@ -420,8 +425,6 @@ MERGED from [androidx.media:media:1.6.0] C:\Users\Tremglobal78\.gradle\caches\tr
 MERGED from [androidx.media:media:1.6.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\ea885537077ddfdc149c7461459acf06\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f9d00c0ad06f3737f5584e3a1be6cac9\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f9d00c0ad06f3737f5584e3a1be6cac9\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\e385bdee40baaaa7a0a4bce53f0bcd30\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\e385bdee40baaaa7a0a4bce53f0bcd30\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\a84354740ec2c411c4bd165c1da3779c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\a84354740ec2c411c4bd165c1da3779c\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d90e72a9c87b1ff9e3ce9c82e7055416\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
@@ -436,8 +439,10 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Tremglobal78
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\457bb483c5218f1a91f9228d8f054c6e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3b26863b4e469c0c4cb66589fb2fec23\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3b26863b4e469c0c4cb66589fb2fec23\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\42e6491f5f37d2219727138ee1097e2e\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\42e6491f5f37d2219727138ee1097e2e\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\5ead7ed1217e7cbec87eca08e3f98d8e\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\5ead7ed1217e7cbec87eca08e3f98d8e\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\Tremglobal78\.gradle\caches\transforms-3\378fd3bb25b9b46dc9aa3c7a19ee50c1\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\Tremglobal78\.gradle\caches\transforms-3\378fd3bb25b9b46dc9aa3c7a19ee50c1\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\514a26f28f4eb64bcee3a03cb31dc92a\transformed\localbroadcastmanager-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -468,10 +473,10 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Tremglob
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\c3b1d64f671d9d2e9c151360cbb7e9a8\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\15a75b17e9ed5186ed3ecb0abbf00ada\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\15a75b17e9ed5186ed3ecb0abbf00ada\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\dba112ebc3be4810c3cce06f5d27b05a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\dba112ebc3be4810c3cce06f5d27b05a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\ab55a6e80c06b203d2c74f8f846d4c22\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\ab55a6e80c06b203d2c74f8f846d4c22\transformed\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\dba112ebc3be4810c3cce06f5d27b05a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\dba112ebc3be4810c3cce06f5d27b05a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\5ae6f4b94732f87c6aa0a18828b436b8\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\5ae6f4b94732f87c6aa0a18828b436b8\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\672711521cad9066ef18c85548a4e7d8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -484,8 +489,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Tremglobal78\.gradle\caches\tr
 MERGED from [androidx.print:print:1.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\72370067b16aa4d8949d5ecaa40d537a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1d9b4dd3b63ff8730ebec3f2f4290d0a\transformed\jetified-grpc-android-1.50.2\AndroidManifest.xml:5:5-7:41
 MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1d9b4dd3b63ff8730ebec3f2f4290d0a\transformed\jetified-grpc-android-1.50.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d3c4ef3a818b940dfd27dbf731d970c7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d3c4ef3a818b940dfd27dbf731d970c7\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\910b5545868838a1a89f04d7e331c4bc\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\910b5545868838a1a89f04d7e331c4bc\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:7:5-9:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Tremglobal78\.gradle\caches\transforms-3\fa3ee9ef68932b9e2c37798d20dfe55d\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\a2e3e084b9e5c3c8ed90d6c93add1b14\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
@@ -790,6 +795,28 @@ ADDED from [:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\f
 		ADDED from [:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 	android:name
 		ADDED from [:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+provider#dev.fluttercommunity.plus.share.ShareFileProvider
+ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:20
+	android:grantUriPermissions
+		ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-47
+	android:authorities
+		ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-74
+	android:exported
+		ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-77
+receiver#dev.fluttercommunity.plus.share.SharePlusPendingIntent
+ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-34:20
+	android:exported
+		ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-82
+intent-filter#action:name:EXTRA_CHOSEN_COMPONENT
+ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-33:29
+action#EXTRA_CHOSEN_COMPONENT
+ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-65
+	android:name
+		ADDED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:25-62
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
 	android:name
@@ -1252,6 +1279,26 @@ ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\t
 		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.fisis.fortune.app.fortunetell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.fisis.fortune.app.fortunetell.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\50ac565c2d78ece85381646878fcb457\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\Tremglobal78\.gradle\caches\transforms-3\8a1500cb3787aec0b63bce10eec467f0\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
 	android:exported

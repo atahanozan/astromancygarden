@@ -110,6 +110,11 @@ class _LoginPageViewState extends State<LoginPageView> {
                               },
                               child: const Text("Giriş Yap")),
                           TextButton(
+                              onPressed: () {
+                                _authService.signInWithGoogle();
+                              },
+                              child: const Text('Google')),
+                          TextButton(
                               onPressed: () => Navigator.pushReplacement(
                                   context,
                                   MaterialPageRoute(
@@ -119,6 +124,19 @@ class _LoginPageViewState extends State<LoginPageView> {
                                 "Kayıt Ol",
                                 style: TextStyle(color: Colors.black),
                               ))
+                        ],
+                      ),
+                    ),
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.grey,
+                      ),
+                      onPressed: () {
+                        _authService.signInWithGoogle();
+                      },
+                      child: Row(
+                        children: const [
+                          Text('Google İle Giriş'),
                         ],
                       ),
                     ),
