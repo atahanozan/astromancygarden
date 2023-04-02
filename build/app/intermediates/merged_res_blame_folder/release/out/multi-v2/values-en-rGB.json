@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\Tremglobal78\\Desktop\\ozan_projeler\\fortunetell\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Tremglobal78\\.gradle\\caches\\transforms-3\\50ac565c2d78ece85381646878fcb457\\transformed\\core-1.9.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "5407",
+                        "endColumns": "100",
+                        "endOffsets": "5503"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Tremglobal78\\.gradle\\caches\\transforms-3\\f9d00c0ad06f3737f5584e3a1be6cac9\\transformed\\browser-1.4.0\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -35,23 +52,6 @@
                         "startOffsets": "2762,2867,3019,3144,3251,3402,3525,3641,3882,4041,4146,4298,4423,4569,4717,4780,4842",
                         "endColumns": "104,151,124,106,150,122,115,102,158,104,151,124,145,147,62,61,78",
                         "endOffsets": "2862,3014,3139,3246,3397,3520,3636,3739,4036,4141,4293,4418,4564,4712,4775,4837,4916"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tremglobal78\\.gradle\\caches\\transforms-3\\42e6491f5f37d2219727138ee1097e2e\\transformed\\core-1.8.0\\res\\values-en-rGB\\values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "5407",
-                        "endColumns": "100",
-                        "endOffsets": "5503"
                     }
                 },
                 {

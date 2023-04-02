@@ -29,6 +29,8 @@ MERGED from [com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal
 MERGED from [com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:10:5-18:19
 MERGED from [me.carda:androidcore:0.7.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\e2977503b1f10584a7017a514b4a11b7\transformed\jetified-androidcore-0.7.7\AndroidManifest.xml:9:5-16:19
 MERGED from [me.carda:androidcore:0.7.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\e2977503b1f10584a7017a514b4a11b7\transformed\jetified-androidcore-0.7.7\AndroidManifest.xml:9:5-16:19
+MERGED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:30:5-59:19
@@ -61,6 +63,8 @@ MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglo
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3cf916311ea46cca191077538f98d969\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-fido:19.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\18a66f342282bedc2cd72b653129a8be\transformed\jetified-play-services-fido-19.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:19.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\18a66f342282bedc2cd72b653129a8be\transformed\jetified-play-services-fido-19.0.1\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0e6ff0173b73b5a02f2f118384612b77\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0e6ff0173b73b5a02f2f118384612b77\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
@@ -116,6 +120,7 @@ MERGED from [:awesome_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler
 MERGED from [:flutter_local_notifications] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-34:12
 MERGED from [:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
 MERGED from [:path_provider_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:google_sign_in_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:shared_preferences_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\6e4aeaec546e2cf41689eb46667f6f54\transformed\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
@@ -124,6 +129,7 @@ MERGED from [com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal
 MERGED from [me.carda:androidcore:0.7.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\e2977503b1f10584a7017a514b4a11b7\transformed\jetified-androidcore-0.7.7\AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\5d79f61d59e0715f7a7a0325b11798b6\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\df986c4a2051c2ff33c412eab3a1cd4f\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:17:1-61:12
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\b327d6a978984f70536bb414720a2991\transformed\jetified-firebase-analytics-21.2.0\AndroidManifest.xml:2:1-9:12
@@ -141,8 +147,10 @@ MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Use
 MERGED from [com.google.firebase:firebase-installations:17.1.2] C:\Users\Tremglobal78\.gradle\caches\transforms-3\f7ca06f63c0030499ca3661ec9c77550\transformed\jetified-firebase-installations-17.1.2\AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3cf916311ea46cca191077538f98d969\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:15:1-33:12
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\c048cbddc35968dfda233d9a87e74926\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Tremglobal78\.gradle\caches\transforms-3\bbd7accc65120017c1fcc6250e685dcc\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:19.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\18a66f342282bedc2cd72b653129a8be\transformed\jetified-play-services-fido-19.0.1\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66b55b0ad11cc295488e7ab8046971a4\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d2b15c7763f1834b31e89f7c4e3f293f\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0e6ff0173b73b5a02f2f118384612b77\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\2d88553736f5537c070a7c9c0a947a0b\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
@@ -225,6 +233,8 @@ MERGED from C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\android\app\
 MERGED from C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\android\app\src\main\AndroidManifest.xml:3:5-67
 MERGED from [:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [:firebase_messaging] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:google_sign_in_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:google_sign_in_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\847b32b408afbc752888409c4ca8a94a\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:23:5-67
@@ -323,6 +333,8 @@ MERGED from [:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\
 MERGED from [:url_launcher_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:shared_preferences_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:shared_preferences_android] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:share_plus] C:\Users\Tremglobal78\Desktop\ozan_projeler\fortunetell\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
@@ -339,6 +351,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Tremglobal78
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\5d79f61d59e0715f7a7a0325b11798b6\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\df986c4a2051c2ff33c412eab3a1cd4f\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\df986c4a2051c2ff33c412eab3a1cd4f\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:20:5-22:41
@@ -373,10 +387,14 @@ MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglo
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Tremglobal78\.gradle\caches\transforms-3\3cf916311ea46cca191077538f98d969\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\c048cbddc35968dfda233d9a87e74926\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\c048cbddc35968dfda233d9a87e74926\transformed\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Tremglobal78\.gradle\caches\transforms-3\bbd7accc65120017c1fcc6250e685dcc\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Tremglobal78\.gradle\caches\transforms-3\bbd7accc65120017c1fcc6250e685dcc\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:19.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\18a66f342282bedc2cd72b653129a8be\transformed\jetified-play-services-fido-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:19.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\18a66f342282bedc2cd72b653129a8be\transformed\jetified-play-services-fido-19.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66b55b0ad11cc295488e7ab8046971a4\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66b55b0ad11cc295488e7ab8046971a4\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d2b15c7763f1834b31e89f7c4e3f293f\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\d2b15c7763f1834b31e89f7c4e3f293f\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0e6ff0173b73b5a02f2f118384612b77\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\0e6ff0173b73b5a02f2f118384612b77\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
@@ -1049,6 +1067,26 @@ ADDED from [com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal7
 		ADDED from [com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:16:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-common-ktx:20.3.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\49e24fbc43ca8d91b086670d3cb456c6\transformed\jetified-firebase-common-ktx-20.3.0\AndroidManifest.xml:15:17-113
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.4.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Tremglobal78\.gradle\caches\transforms-3\1db1b2873326ed90786bb9c16ff9ea36\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] C:\Users\Tremglobal78\.gradle\caches\transforms-3\66de4305226ff0cb8bffa4b4ba4a8b75\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:28:5-82

@@ -88,10 +88,19 @@ class _NavBarState extends State<NavBar> {
               label: "",
             ),
             BottomNavigationBarItem(
-              icon: SizedBox(
+              icon: Container(
+                decoration: const BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.white,
+                      blurRadius: 10,
+                    ),
+                  ],
+                ),
                 height: 30,
                 width: 30,
                 child: CircleAvatar(
+                  backgroundColor: Colors.white,
                   backgroundImage: NetworkImage(customimageURL),
                 ),
               ),

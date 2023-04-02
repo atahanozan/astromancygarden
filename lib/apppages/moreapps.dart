@@ -78,12 +78,6 @@ class _MoreAppsState extends State<MoreApps> {
             fontSize: 25,
           ),
         ),
-        actions: const [
-          InfoButton(
-            content: Text('dememe'),
-            title: Text('deneme'),
-          ),
-        ],
       ),
       body: Container(
         decoration: const BoxDecoration(

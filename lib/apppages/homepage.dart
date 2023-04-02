@@ -7,7 +7,6 @@ import 'package:fortunetell/core/languages.dart';
 import 'package:fortunetell/service/auth.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:like_button/like_button.dart';
-import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class HomePage extends StatefulWidget {
@@ -108,33 +107,10 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  void startLoadingTimer() {
-    const otherOneSec = Duration(seconds: 1);
-    _othertimer = Timer.periodic(otherOneSec, (timer) {
-      if (_startlast == 0) {
-        setState(() {
-          Navigator.pop(context);
-          timer.cancel();
-          _startlast = 3;
-          _height = 0;
-          _height2 = 800;
-          _randomColor();
-        });
-      } else {
-        setState(() {
-          _startlast--;
-        });
-      }
-    });
-  }
-
   @override
   void initState() {
     getItems().then((value) {
       setState(() {
-        Duration fark = DateTime.parse(start).difference(
-          DateTime.now(),
-        );
         FirebaseFirestore.instance
             .collection('daily')
             .where('item', isEqualTo: 'color')
@@ -191,6 +167,7 @@ class _HomePageState extends State<HomePage> {
             });
           }
         });
+        DateTime fark = DateTime.parse(start);
 
         Duration son = const Duration(
           hours: 0,
@@ -200,7 +177,7 @@ class _HomePageState extends State<HomePage> {
           microseconds: 0,
         );
 
-        if (fark <= son) {
+        if (fark.isBefore(DateTime.now())) {
           setState(() {
             _height = 350;
             _height2 = 0;
@@ -311,15 +288,6 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  void likeButtonFun() {
-    showDialog(
-        context: context,
-        builder: (context) => AlertDialog(
-              content: Image.asset("assets/loading.gif"),
-            ));
-    startLoadingTimer();
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -334,10 +302,10 @@ class _HomePageState extends State<HomePage> {
             fontSize: 25,
           ),
         ),
-        actions: const [
+        actions: [
           InfoButton(
-            content: Text('dememe'),
-            title: Text('deneme'),
+            content: Text(textUtilities.klavuzdaily),
+            title: const Text('Günlük Fal Kılavuzu'),
           ),
         ],
       ),
@@ -367,8 +335,13 @@ class _HomePageState extends State<HomePage> {
                             child: LikeButton(
                               size: 100,
                               onTap: (isLiked) async {
-                                Timer(const Duration(seconds: 1),
-                                    () => likeButtonFun());
+                                Timer(const Duration(seconds: 1), () {
+                                  setState(() {
+                                    _height = 0;
+                                    _height2 = 800;
+                                  });
+                                  _randomColor();
+                                });
                                 return !isLiked;
                               },
                             ),

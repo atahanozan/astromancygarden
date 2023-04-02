@@ -110,11 +110,6 @@ class _LoginPageViewState extends State<LoginPageView> {
                               },
                               child: const Text("Giriş Yap")),
                           TextButton(
-                              onPressed: () {
-                                _authService.signInWithGoogle();
-                              },
-                              child: const Text('Google')),
-                          TextButton(
                               onPressed: () => Navigator.pushReplacement(
                                   context,
                                   MaterialPageRoute(

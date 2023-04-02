@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\Tremglobal78\\Desktop\\ozan_projeler\\fortunetell\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-fa\\values-fa.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Tremglobal78\\.gradle\\caches\\transforms-3\\50ac565c2d78ece85381646878fcb457\\transformed\\core-1.9.0\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "5513",
+                        "endColumns": "100",
+                        "endOffsets": "5609"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Tremglobal78\\.gradle\\caches\\transforms-3\\27ed75583d8888cfd149af38bb71ea35\\transformed\\jetified-play-services-base-18.0.1\\res\\values-fa\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -35,23 +52,6 @@
                         "startOffsets": "105,215,316,427,511,612,727,807,884,977,1072,1164,1258,1360,1455,1552,1646,1739,1829,1911,2019,2123,2221,2327,2432,2537,2694,5431",
                         "endColumns": "109,100,110,83,100,114,79,76,92,94,91,93,101,94,96,93,92,89,81,107,103,97,105,104,104,156,100,81",
                         "endOffsets": "210,311,422,506,607,722,802,879,972,1067,1159,1253,1355,1450,1547,1641,1734,1824,1906,2014,2118,2216,2322,2427,2532,2689,2790,5508"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tremglobal78\\.gradle\\caches\\transforms-3\\42e6491f5f37d2219727138ee1097e2e\\transformed\\core-1.8.0\\res\\values-fa\\values-fa.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "5513",
-                        "endColumns": "100",
-                        "endOffsets": "5609"
                     }
                 },
                 {
