@@ -126,10 +126,10 @@ class _WishCardsPageViewState extends State<WishCardsPageView> {
               fontSize: 25,
             ),
           ),
-          actions: const [
+          actions: [
             InfoButton(
-              content: Text('dememe'),
-              title: Text('deneme'),
+              content: Text(textUtilities.klavuzchance),
+              title: const Text('Dilek Kartları Kullanım Kılavuzu'),
             ),
           ],
         ),
@@ -137,23 +137,24 @@ class _WishCardsPageViewState extends State<WishCardsPageView> {
             child: Padding(
           padding: const EdgeInsets.only(top: 200),
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-            FittedBox(
-              child: Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: SizedBox(
-                  height: _height2,
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      const Padding(
-                        padding: EdgeInsets.only(bottom: 30),
-                        child: Text(
-                          'Dileğini tut ve sana en sıcak gelen kartı seç ve basılı tut\nKart sana söylenecekleri söylesin.',
-                          textAlign: TextAlign.center,
-                        ),
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: SizedBox(
+                height: _height2,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 30),
+                      child: Text(
+                        'Dileğini tut ve sana en sıcak gelen kartı seç ve basılı tut\nKart sana söylenecekleri söylesin.',
+                        textAlign: TextAlign.center,
+                        style: GoogleFonts.comfortaa(),
                       ),
-                      Row(
+                    ),
+                    FittedBox(
+                      child: Row(
                         children: [
                           InkWell(
                             highlightColor: Colors.green,
@@ -214,8 +215,8 @@ class _WishCardsPageViewState extends State<WishCardsPageView> {
                           )
                         ],
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
             ),

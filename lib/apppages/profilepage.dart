@@ -6,8 +6,6 @@ import 'package:fortunetell/core/profilepage/namesection.dart';
 import 'package:fortunetell/core/profilepage/statussection.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../core/infobutton.dart';
-
 class ProfilePage extends StatefulWidget {
   const ProfilePage({Key? key}) : super(key: key);
 
@@ -31,12 +29,6 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
         ),
         automaticallyImplyLeading: false,
-        actions: const [
-          InfoButton(
-            content: Text('deneme'),
-            title: Text("Astromency Garden Discover Hakkında Bilgiler"),
-          )
-        ],
       ),
       body: Container(
         decoration: const BoxDecoration(
@@ -54,7 +46,7 @@ class _ProfilePageState extends State<ProfilePage> {
               const Divider(),
               FrostedGlassView(
                   thewidth: 400,
-                  theheight: 1200,
+                  theheight: 1300,
                   thechild: Column(
                     children: const [
                       AddStatuSection(),

@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:fortunetell/core/languages.dart';
 import 'package:fortunetell/core/profilepage/highsign.dart';
 import 'package:fortunetell/core/profilepage/moonsign.dart';
 import 'package:fortunetell/core/profilepage/signcalculate.dart';
@@ -23,6 +24,7 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
   String year = "1950";
   String hour = "01";
   String minute = "00";
+  double _height = 0;
 
   @override
   void initState() {
@@ -496,194 +498,186 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                                       flex: 1,
                                       child: InkWell(
                                           onTap: () {
-                                            showDialog(
-                                                context: context,
-                                                builder:
-                                                    (context) => AlertDialog(
-                                                          content: Row(
-                                                            children: [
-                                                              Expanded(
-                                                                flex: 2,
-                                                                child: Row(
-                                                                  children: [
-                                                                    DropdownButton(
-                                                                      value:
-                                                                          customday,
-                                                                      onChanged:
-                                                                          (String?
-                                                                              newvalue) {
-                                                                        setState(
-                                                                            () {
-                                                                          customday =
-                                                                              newvalue!;
-                                                                        });
-                                                                      },
-                                                                      items: days.map(
-                                                                          (String
-                                                                              item) {
-                                                                        return DropdownMenuItem(
-                                                                          value:
-                                                                              item,
-                                                                          child:
-                                                                              Text(item),
-                                                                        );
-                                                                      }).toList(),
-                                                                    ),
-                                                                    DropdownButton(
-                                                                      value:
-                                                                          custommonth,
-                                                                      onChanged:
-                                                                          (String?
-                                                                              newvalue) {
-                                                                        setState(
-                                                                            () {
-                                                                          custommonth =
-                                                                              newvalue!;
-                                                                        });
-                                                                      },
-                                                                      items: months.map(
-                                                                          (String
-                                                                              item) {
-                                                                        return DropdownMenuItem(
-                                                                          value:
-                                                                              item,
-                                                                          child:
-                                                                              Text(item),
-                                                                        );
-                                                                      }).toList(),
-                                                                    ),
-                                                                    DropdownButton(
-                                                                      value:
-                                                                          customyear,
-                                                                      onChanged:
-                                                                          (String?
-                                                                              newvalue) {
-                                                                        setState(
-                                                                            () {
-                                                                          customyear =
-                                                                              newvalue!;
-                                                                        });
-                                                                      },
-                                                                      items: years.map(
-                                                                          (String
-                                                                              item) {
-                                                                        return DropdownMenuItem(
-                                                                          value:
-                                                                              item,
-                                                                          child:
-                                                                              Text(item),
-                                                                        );
-                                                                      }).toList(),
-                                                                    ),
-                                                                  ],
-                                                                ),
-                                                              ),
-                                                              Expanded(
-                                                                flex: 1,
-                                                                child: Row(
-                                                                  children: [
-                                                                    DropdownButton(
-                                                                      value:
-                                                                          customhour,
-                                                                      onChanged:
-                                                                          (String?
-                                                                              newvalue) {
-                                                                        setState(
-                                                                            () {
-                                                                          customhour =
-                                                                              newvalue!;
-                                                                        });
-                                                                      },
-                                                                      items: hours.map(
-                                                                          (String
-                                                                              item) {
-                                                                        return DropdownMenuItem(
-                                                                          value:
-                                                                              item,
-                                                                          child:
-                                                                              Text(item),
-                                                                        );
-                                                                      }).toList(),
-                                                                    ),
-                                                                    DropdownButton(
-                                                                      value:
-                                                                          customminute,
-                                                                      onChanged:
-                                                                          (String?
-                                                                              newvalue) {
-                                                                        setState(
-                                                                            () {
-                                                                          customminute =
-                                                                              newvalue!;
-                                                                        });
-                                                                      },
-                                                                      items: minutes.map(
-                                                                          (String
-                                                                              item) {
-                                                                        return DropdownMenuItem(
-                                                                          value:
-                                                                              item,
-                                                                          child:
-                                                                              Text(item),
-                                                                        );
-                                                                      }).toList(),
-                                                                    ),
-                                                                  ],
-                                                                ),
-                                                              ),
-                                                            ],
-                                                          ),
-                                                          actions: [
-                                                            ElevatedButton(
-                                                                style: ElevatedButton
-                                                                    .styleFrom(
-                                                                  backgroundColor:
-                                                                      Colors
-                                                                          .purple,
-                                                                ),
-                                                                onPressed: () {
-                                                                  FirebaseFirestore
-                                                                      .instance
-                                                                      .collection(
-                                                                          'Status')
-                                                                      .doc(status
-                                                                          .id)
-                                                                      .update({
-                                                                    'day':
-                                                                        customday,
-                                                                    'month':
-                                                                        custommonth,
-                                                                    'year':
-                                                                        customyear,
-                                                                    'hour':
-                                                                        customhour,
-                                                                    'minute':
-                                                                        customminute,
-                                                                  });
-
-                                                                  Navigator.pop(
-                                                                      context);
-                                                                },
-                                                                child: const Text(
-                                                                    'Düzenle')),
-                                                            TextButton(
-                                                                onPressed: () {
-                                                                  Navigator.pop(
-                                                                      context);
-                                                                },
-                                                                child:
-                                                                    const Text(
-                                                                  'İptal',
-                                                                  style: TextStyle(
-                                                                      color: Colors
-                                                                          .purple),
-                                                                )),
-                                                          ],
-                                                        ));
+                                            setState(() {
+                                              _height = 120;
+                                            });
                                           },
                                           child:
                                               const Icon(Icons.edit_rounded))),
                                 ],
+                              ),
+                              Container(
+                                color: Colors.white70,
+                                height: _height,
+                                child: Padding(
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 10),
+                                  child: Column(
+                                    children: [
+                                      Row(
+                                        children: [
+                                          Expanded(
+                                            flex: 2,
+                                            child: Row(
+                                              children: [
+                                                DropdownButton(
+                                                  dropdownColor: Colors.white,
+                                                  value: day,
+                                                  onChanged: (String? value) {
+                                                    setState(() {
+                                                      day = value!;
+                                                    });
+                                                  },
+                                                  items: days.map<
+                                                          DropdownMenuItem<
+                                                              String>>(
+                                                      (String value) {
+                                                    return DropdownMenuItem(
+                                                      value: value,
+                                                      child: Text(
+                                                        value,
+                                                        style: const TextStyle(
+                                                          color: Colors.black,
+                                                        ),
+                                                      ),
+                                                    );
+                                                  }).toList(),
+                                                ),
+                                                DropdownButton(
+                                                  value: month,
+                                                  onChanged:
+                                                      (String? newvalue) {
+                                                    setState(() {
+                                                      month = newvalue!;
+                                                    });
+                                                  },
+                                                  items:
+                                                      months.map((String item) {
+                                                    return DropdownMenuItem(
+                                                      value: item,
+                                                      child: Text(
+                                                        item,
+                                                        style: const TextStyle(
+                                                          color: Colors.black,
+                                                        ),
+                                                      ),
+                                                    );
+                                                  }).toList(),
+                                                ),
+                                                DropdownButton(
+                                                  value: year,
+                                                  onChanged:
+                                                      (String? newvalue) {
+                                                    setState(() {
+                                                      year = newvalue!;
+                                                    });
+                                                  },
+                                                  items:
+                                                      years.map((String item) {
+                                                    return DropdownMenuItem(
+                                                      value: item,
+                                                      child: Text(
+                                                        item,
+                                                        style: const TextStyle(
+                                                          color: Colors.black,
+                                                        ),
+                                                      ),
+                                                    );
+                                                  }).toList(),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                          Expanded(
+                                            flex: 1,
+                                            child: Row(
+                                              children: [
+                                                DropdownButton(
+                                                  value: hour,
+                                                  onChanged:
+                                                      (String? newvalue) {
+                                                    setState(() {
+                                                      hour = newvalue!;
+                                                    });
+                                                  },
+                                                  items:
+                                                      hours.map((String item) {
+                                                    return DropdownMenuItem(
+                                                      value: item,
+                                                      child: Text(
+                                                        item,
+                                                        style: const TextStyle(
+                                                          color: Colors.black,
+                                                        ),
+                                                      ),
+                                                    );
+                                                  }).toList(),
+                                                ),
+                                                DropdownButton(
+                                                  value: minute,
+                                                  onChanged:
+                                                      (String? newvalue) {
+                                                    setState(() {
+                                                      minute = newvalue!;
+                                                    });
+                                                  },
+                                                  items: minutes
+                                                      .map((String item) {
+                                                    return DropdownMenuItem(
+                                                      value: item,
+                                                      child: Text(
+                                                        item,
+                                                        style: const TextStyle(
+                                                          color: Colors.black,
+                                                        ),
+                                                      ),
+                                                    );
+                                                  }).toList(),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      Row(
+                                        children: [
+                                          TextButton(
+                                              onPressed: () {
+                                                setState(() {
+                                                  _height = 0;
+                                                });
+                                              },
+                                              child: const Text(
+                                                'İptal',
+                                                style: TextStyle(
+                                                  color: Colors.black,
+                                                ),
+                                              )),
+                                          ElevatedButton(
+                                              style: ElevatedButton.styleFrom(
+                                                  backgroundColor:
+                                                      Colors.black),
+                                              onPressed: () {
+                                                FirebaseFirestore.instance
+                                                    .collection('Status')
+                                                    .doc(status.id)
+                                                    .update({
+                                                  'day': day,
+                                                  'month': month,
+                                                  'year': year,
+                                                  'hour': hour,
+                                                  'minute': minute,
+                                                });
+                                                setState(() {
+                                                  _height = 0;
+                                                });
+                                              },
+                                              child: const Text('Düzenle')),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
                               ),
                             ],
                           ),

@@ -80,6 +80,12 @@ Günlük burç yorumları, Melek sayıları, faydalı bilgiler ve çok daha fazl
 Astromancy Garden Dicovery sizin için yapıldı.
 """;
 
+  static String klavuzsigndetails = """
+Burçların genel yorumları ve özelliklerini bu sayfada detaylı bir şekilde bulabilirsiniz.,
+
+Astromancy Garden Dicovery sizin için yapıldı.
+""";
+
   static String kvkk = """
 KİŞİSEL VERİLERİN KORUNMASI VE İŞLENMESİ
 VERİ İŞLEYEN SÖZLEŞMESİ

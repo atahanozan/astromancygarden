@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:fortunetell/apppages/enterpages/forgotpassword.dart';
 import 'package:fortunetell/apppages/enterpages/register_page.dart';
 import 'package:fortunetell/core/backgroun_register_login.dart';
@@ -35,7 +36,7 @@ class _LoginPageViewState extends State<LoginPageView> {
           FittedBox(
             fit: BoxFit.contain,
             child: FrostedGlassView(
-              theheight: 650,
+              theheight: 700,
               thewidth: 350,
               thechild: Padding(
                 padding: const EdgeInsets.all(20),
@@ -122,17 +123,34 @@ class _LoginPageViewState extends State<LoginPageView> {
                         ],
                       ),
                     ),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.grey,
-                      ),
-                      onPressed: () {
-                        _authService.signInWithGoogle();
-                      },
-                      child: Row(
-                        children: const [
-                          Text('Google İle Giriş'),
-                        ],
+                    SizedBox(
+                      width: 200,
+                      child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          alignment: Alignment.center,
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                          shape: const StadiumBorder(),
+                        ),
+                        onPressed: () {
+                          _authService.signInWithGoogle().then(
+                                (value) => Navigator.pushReplacement(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const NavBar(),
+                                  ),
+                                ),
+                              );
+                        },
+                        child: Row(
+                          children: const [
+                            Padding(
+                              padding: EdgeInsets.only(right: 10),
+                              child: FaIcon(FontAwesomeIcons.google),
+                            ),
+                            Text('Google ile devam et'),
+                          ],
+                        ),
                       ),
                     ),
                     Padding(

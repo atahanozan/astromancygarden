@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:fortunetell/core/infobutton.dart';
+import 'package:fortunetell/core/languages.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SignDetailsPage extends StatefulWidget {
@@ -26,10 +27,10 @@ class _SignDetailsPageState extends State<SignDetailsPage> {
             fontSize: 25,
           ),
         ),
-        actions: const [
+        actions: [
           InfoButton(
-            content: Text('dememe'),
-            title: Text('deneme'),
+            content: Text(textUtilities.klavuzsigndetails),
+            title: const Text('Burç Yorumları'),
           ),
         ],
       ),
