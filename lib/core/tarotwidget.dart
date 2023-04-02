@@ -334,23 +334,6 @@ class _TarotFortuneWidgetState extends State<TarotFortuneWidget> {
                 )),
               ),
               actions: [
-                ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.black,
-                    ),
-                    onPressed: () {
-                      Share.share(newExplain, subject: 'Tarot Falım');
-                    },
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: const [
-                        Padding(
-                          padding: EdgeInsets.only(right: 10),
-                          child: Icon(Icons.share),
-                        ),
-                        Text('Paylaş'),
-                      ],
-                    )),
                 TextButton(
                     onPressed: () {
                       Navigator.pop(dialogcontext);

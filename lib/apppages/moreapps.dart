@@ -8,7 +8,6 @@ import 'package:fortunetell/apppages/signdetails.dart';
 import 'package:fortunetell/apppages/tarotpage.dart';
 import 'package:fortunetell/apppages/wishcards.dart';
 import 'package:fortunetell/core/frotedglass.dart';
-import 'package:fortunetell/core/infobutton.dart';
 import 'package:fortunetell/core/languages.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;

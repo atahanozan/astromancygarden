@@ -72,7 +72,7 @@ class _TarotPageState extends State<TarotPage> {
         DateTime zaman = DateTime.parse(customtime);
         if (zaman.isBefore(DateTime.now())) {
           setState(() {
-            customheight = 350;
+            customheight = 500;
             customheightlast = 0;
             heighttarot = 0;
           });
@@ -140,6 +140,15 @@ class _TarotPageState extends State<TarotPage> {
                           size: 100,
                           onTap: (isLiked) async {
                             Timer(const Duration(milliseconds: 400), () {
+                              setState(() {
+                                customtime = DateTime.now()
+                                    .add(const Duration(hours: 2))
+                                    .toString();
+                                setTime();
+                                customheight = 0;
+                                customheightlast = 400;
+                                heighttarot = 250;
+                              });
                               showDialog(
                                   context: context,
                                   builder: (context) => TarotFortuneWidget(
