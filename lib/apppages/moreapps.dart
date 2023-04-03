@@ -11,6 +11,7 @@ import 'package:fortunetell/core/frotedglass.dart';
 import 'package:fortunetell/core/languages.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
+import 'package:fortunetell/service/auth.dart';
 
 class MoreApps extends StatefulWidget {
   const MoreApps({Key? key}) : super(key: key);
@@ -20,18 +21,13 @@ class MoreApps extends StatefulWidget {
 }
 
 class _MoreAppsState extends State<MoreApps> {
-  final String pageComment =
-      'Falcı ile iltişim, Rüya tabirleri ve çok daha fazlasına bu sayfadan ulaşabilirsiniz.';
-  final String imgDream =
-      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/moreapps%2Fdream.png?alt=media&token=fe1fc093-f5ea-456b-a497-70eff93deb5f';
-  final String imgMessage =
-      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/moreapps%2Fmessage.png?alt=media&token=1fb0b1e5-5f59-42a1-a309-c117381cb8b8';
-  final String imgAboutus =
-      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/moreapps%2Faboutus.png?alt=media&token=d7c4c0e5-59e6-466f-b0a6-f4265788332e';
-
+  AuthService _authService = AuthService();
+  String welcoming = 'Hoş Geldin';
   void navigatePage(page) {
     Navigator.push(context, MaterialPageRoute(builder: (context) => page));
   }
+
+  String? uid, name;
 
   final nameController = TextEditingController();
   final subjectController = TextEditingController();
@@ -63,7 +59,19 @@ class _MoreAppsState extends State<MoreApps> {
   }
 
   @override
+  void initState() {
+    _authService.getCurrentUser().then((value) {
+      setState(() {
+        uid = value?.uid;
+        name = value?.displayName;
+      });
+    });
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
+    var customname = name!.split(' ');
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
@@ -71,12 +79,6 @@ class _MoreAppsState extends State<MoreApps> {
         foregroundColor: Colors.white,
         backgroundColor: Colors.transparent,
         automaticallyImplyLeading: false,
-        title: Text(
-          'ASTROMANCY GARDEN',
-          style: GoogleFonts.benchNine(
-            fontSize: 25,
-          ),
-        ),
       ),
       body: Container(
         decoration: const BoxDecoration(
@@ -89,10 +91,28 @@ class _MoreAppsState extends State<MoreApps> {
             left: 20,
             right: 20,
             bottom: 50,
-            top: 100,
+            top: 70,
           ),
           child: Column(
             children: [
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 20),
+                    child: SizedBox(
+                      width: 300,
+                      child: Text(
+                        ('$welcoming ${customname[0]}'),
+                        textAlign: TextAlign.start,
+                        style: GoogleFonts.limelight(
+                          fontSize: 40,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 10),
                 child: Row(

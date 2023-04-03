@@ -58,7 +58,7 @@ class ShareStatusService {
   Stream<QuerySnapshot> getStatus() {
     var ref = _firestore
         .collection("ShareStatus")
-        .orderBy('datetime', descending: true)
+        .orderBy('id', descending: true)
         .snapshots();
 
     return ref;

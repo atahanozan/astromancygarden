@@ -72,7 +72,7 @@ class _ProfileNamePageState extends State<ProfileNamePage> {
                   DocumentSnapshot person = snapshot.data!.docs[index];
 
                   return SizedBox(
-                    height: 150,
+                    height: 200,
                     child: FittedBox(
                       fit: BoxFit.contain,
                       child: Column(

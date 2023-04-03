@@ -123,36 +123,36 @@ class _LoginPageViewState extends State<LoginPageView> {
                         ],
                       ),
                     ),
-                    SizedBox(
-                      width: 200,
-                      child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                          alignment: Alignment.center,
-                          backgroundColor: Colors.white,
-                          foregroundColor: Colors.black,
-                          shape: const StadiumBorder(),
-                        ),
-                        onPressed: () {
-                          _authService.signInWithGoogle().then(
-                                (value) => Navigator.pushReplacement(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => const NavBar(),
-                                  ),
-                                ),
-                              );
-                        },
-                        child: Row(
-                          children: const [
-                            Padding(
-                              padding: EdgeInsets.only(right: 10),
-                              child: FaIcon(FontAwesomeIcons.google),
-                            ),
-                            Text('Google ile devam et'),
-                          ],
-                        ),
-                      ),
-                    ),
+                    // SizedBox(
+                    //   width: 200,
+                    //   child: ElevatedButton(
+                    //     style: ElevatedButton.styleFrom(
+                    //       alignment: Alignment.center,
+                    //       backgroundColor: Colors.white,
+                    //       foregroundColor: Colors.black,
+                    //       shape: const StadiumBorder(),
+                    //     ),
+                    //     onPressed: () {
+                    //       _authService.signInWithGoogle().then(
+                    //             (value) => Navigator.pushReplacement(
+                    //               context,
+                    //               MaterialPageRoute(
+                    //                 builder: (context) => const NavBar(),
+                    //               ),
+                    //             ),
+                    //           );
+                    //     },
+                    //     child: Row(
+                    //       children: const [
+                    //         Padding(
+                    //           padding: EdgeInsets.only(right: 10),
+                    //           child: FaIcon(FontAwesomeIcons.google),
+                    //         ),
+                    //         Text('Google ile devam et'),
+                    //       ],
+                    //     ),
+                    //   ),
+                    // ),
                     Padding(
                       padding: const EdgeInsets.only(top: 10),
                       child: InkWell(

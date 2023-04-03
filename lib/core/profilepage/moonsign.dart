@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:fortunetell/service/auth.dart';
 
@@ -192,6 +193,7 @@ class _MoonSignState extends State<MoonSign> {
 
   @override
   Widget build(BuildContext context) {
+    String mmmsign = "";
     return StreamBuilder(
         stream: FirebaseFirestore.instance
             .collection('Status')
@@ -307,6 +309,7 @@ class _MoonSignState extends State<MoonSign> {
 
                     return Text(
                       lastmoonsign,
+                      textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Colors.white,
                       ),

@@ -26,19 +26,6 @@ class _HighSignState extends State<HighSign> {
     });
   }
 
-  Duration signhours5 = const Duration(hours: 5, minutes: 0);
-  Duration signhours7 = const Duration(hours: 7, minutes: 0);
-  Duration signhours9 = const Duration(hours: 9, minutes: 0);
-  Duration signhours11 = const Duration(hours: 11, minutes: 0);
-  Duration signhours13 = const Duration(hours: 13, minutes: 0);
-  Duration signhours15 = const Duration(hours: 15, minutes: 0);
-  Duration signhours17 = const Duration(hours: 17, minutes: 0);
-  Duration signhours19 = const Duration(hours: 19, minutes: 0);
-  Duration signhours21 = const Duration(hours: 21, minutes: 0);
-  Duration signhours23 = const Duration(hours: 23, minutes: 0);
-  Duration signhours1 = const Duration(hours: 1, minutes: 0);
-  Duration signhours3 = const Duration(hours: 3, minutes: 0);
-
   @override
   Widget build(BuildContext context) {
     return StreamBuilder(
@@ -58,40 +45,36 @@ class _HighSignState extends State<HighSign> {
                   itemCount: snapshot.data?.docs.length,
                   itemBuilder: (context, index) {
                     DocumentSnapshot sign = snapshot.data!.docs[index];
-                    Duration hour = Duration(
-                        hours: int.parse(sign['hour']),
-                        minutes: int.parse(sign['minute']));
+
+                    int hour = int.parse(sign['hour']) < 5
+                        ? int.parse(sign['hour'])
+                        : int.parse(sign['hour']) + 23;
+
                     String originalsign = sign['sign'];
 
-                    String saarara = (hour < signhours7 && hour > signhours5)
+                    String saarara = (hour < 7 && hour > 4.9)
                         ? 'A1'
-                        : (hour < signhours9 && hour > signhours7)
+                        : (hour < 9 && hour > 6.9)
                             ? 'A2'
-                            : (hour < signhours11 && hour > signhours9)
+                            : (hour < 11 && hour > 8.9)
                                 ? 'A3'
-                                : (hour < signhours13 && hour > signhours11)
+                                : (hour < 13 && hour > 10.9)
                                     ? 'A4'
-                                    : (hour < signhours15 && hour > signhours13)
+                                    : (hour < 15 && hour > 12.9)
                                         ? 'A5'
-                                        : (hour < signhours17 &&
-                                                hour > signhours15)
+                                        : (hour < 17 && hour > 14.9)
                                             ? 'A6'
-                                            : (hour < signhours19 &&
-                                                    hour > signhours17)
+                                            : (hour < 19 && hour > 16.9)
                                                 ? 'A7'
-                                                : (hour < signhours21 &&
-                                                        hour > signhours19)
+                                                : (hour < 21 && hour > 18.9)
                                                     ? 'A8'
-                                                    : (hour < signhours23 &&
-                                                            hour > signhours21)
+                                                    : (hour < 23 && hour > 20.9)
                                                         ? 'A9'
-                                                        : (hour < signhours1 &&
-                                                                hour >
-                                                                    signhours23)
+                                                        : (hour < 25 &&
+                                                                hour > 22.9)
                                                             ? 'A10'
-                                                            : (hour < signhours3 &&
-                                                                    hour >
-                                                                        signhours1)
+                                                            : (hour < 27 &&
+                                                                    hour > 24.9)
                                                                 ? 'A11'
                                                                 : 'A12';
                     String highsignkoc = saarara == 'A1'
@@ -399,6 +382,7 @@ class _HighSignState extends State<HighSign> {
 
                     return Text(
                       lastsign,
+                      textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Colors.white,
                       ),

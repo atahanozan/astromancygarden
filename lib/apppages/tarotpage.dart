@@ -90,6 +90,10 @@ class _TarotPageState extends State<TarotPage> {
 
   @override
   Widget build(BuildContext context) {
+    int sure = fark.inMinutes;
+    String explain = sure > 60
+        ? '2 saatten daha az süre sonra fal hakkınız yenilenecektir.'
+        : 'Yeni fal için $sure dakikanız kaldı.';
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
@@ -208,7 +212,7 @@ class _TarotPageState extends State<TarotPage> {
                             Padding(
                               padding: const EdgeInsets.only(top: 10),
                               child: Text(
-                                "Yeni Tarot Falı için;\n${fark.inHours} saat ${fark.inMinutes} dakika süreniz kaldı.",
+                                explain,
                                 style: GoogleFonts.comfortaa(),
                               ),
                             ),

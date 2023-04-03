@@ -1,3 +1,4 @@
+import 'package:animate_gradient/animate_gradient.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fortunetell/core/frotedglass.dart';
@@ -103,9 +104,19 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                                         top: 20, left: 50, right: 50),
                                     child: Row(
                                       children: [
-                                        const CircleAvatar(
-                                          backgroundImage: NetworkImage(
-                                            "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/aspics%2F2.png?alt=media&token=34dd3598-a32c-47a6-9ff4-fecc7ae6ded2",
+                                        Container(
+                                          decoration: const BoxDecoration(
+                                            boxShadow: [
+                                              BoxShadow(
+                                                color: Colors.white,
+                                                blurRadius: 10,
+                                              ),
+                                            ],
+                                          ),
+                                          child: const CircleAvatar(
+                                            backgroundImage: NetworkImage(
+                                              "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/aspics%2F2.png?alt=media&token=34dd3598-a32c-47a6-9ff4-fecc7ae6ded2",
+                                            ),
                                           ),
                                         ),
                                         Padding(
@@ -114,7 +125,8 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                                           child: Text(
                                             mypost['header'],
                                             style: const TextStyle(
-                                                color: Colors.white),
+                                              color: Colors.white,
+                                            ),
                                           ),
                                         )
                                       ],
@@ -144,7 +156,10 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                                                 mypost['datetime'],
                                                 style: Theme.of(context)
                                                     .textTheme
-                                                    .bodySmall,
+                                                    .bodySmall
+                                                    ?.copyWith(
+                                                      color: Colors.white,
+                                                    ),
                                               ),
                                             ),
                                             Expanded(
@@ -152,19 +167,19 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                                               children: [
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F1.png?alt=media&token=35754344-0317-47d4-96c2-740ab4571004',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F1.png?alt=media&token=6a19bfce-faed-497c-9371-e536f1e07168",
                                                   title: 'Koç',
                                                   content: mypost['koc'],
                                                 ),
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F2.png?alt=media&token=1821ffe7-0a85-4976-995e-12a3453ea31b',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F2.png?alt=media&token=fb9929f6-8992-4156-ac94-c5b97b9ba9b9",
                                                   title: 'Boğa',
                                                   content: mypost['boga'],
                                                 ),
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F3.png?alt=media&token=cc466a48-9157-4557-ac39-4150cccfb027',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F3.png?alt=media&token=bd0b1af7-47b0-48fd-a3e4-8fd23aa52394",
                                                   title: 'İkizler',
                                                   content: mypost['ikizler'],
                                                 ),
@@ -175,19 +190,19 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                                               children: [
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F4.png?alt=media&token=8225c04a-410c-4742-817a-ae7c9a313230',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F4.png?alt=media&token=0f93bfb7-f772-4792-9bb2-97a8324f1456",
                                                   title: 'Yengeç',
                                                   content: mypost['yengec'],
                                                 ),
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F5.png?alt=media&token=dbbb22e7-73a9-41d8-8841-687e82aeeaca',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F5.png?alt=media&token=7d7daaf0-e61c-42ab-a497-2ee5e78c9409",
                                                   title: 'Aslan',
                                                   content: mypost['aslan'],
                                                 ),
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F6.png?alt=media&token=5397fd8c-8ecf-4f61-b4e9-5f4859db1d90',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F6.png?alt=media&token=17dac802-76b3-4a3f-9b10-680b1716287d",
                                                   title: 'Başak',
                                                   content: mypost['basak'],
                                                 ),
@@ -198,19 +213,19 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                                               children: [
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F7.png?alt=media&token=2ee3bbf3-a08e-4f6b-8a78-341426385295',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F7.png?alt=media&token=74f1d678-c1f2-4215-9f7d-47029ab6d879",
                                                   title: 'Terazi',
                                                   content: mypost['terazi'],
                                                 ),
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F8.png?alt=media&token=fddf1d66-000c-462a-8183-e0d6a421af0a',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F8.png?alt=media&token=606e284d-f40c-4446-88ec-58ffc0e1eb5f",
                                                   title: 'Akrep',
                                                   content: mypost['akrep'],
                                                 ),
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F9.png?alt=media&token=8f713342-26a7-4f28-bfbd-3a54d21bb46f',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F9.png?alt=media&token=aaebbb66-c19f-43b3-9041-3df33349eedb",
                                                   title: 'Yay',
                                                   content: mypost['yay'],
                                                 ),
@@ -221,19 +236,19 @@ class _DiscoverViewPageState extends State<DiscoverViewPage> {
                                               children: [
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F10.png?alt=media&token=739067aa-26de-4fa1-8201-d5cf3e632c08',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F10.png?alt=media&token=af9fa284-0f6f-4acb-8b35-c7ef0d0efbe3",
                                                   title: 'Oğlak',
                                                   content: mypost['oglak'],
                                                 ),
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F11.png?alt=media&token=173b72de-4a65-4547-b749-d227d5537349',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F11.png?alt=media&token=4ea29d4a-4c4a-4fd3-820e-8ffc4d661f83",
                                                   title: 'Kova',
                                                   content: mypost['kova'],
                                                 ),
                                                 SignCommand(
                                                   pic:
-                                                      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F12.png?alt=media&token=ef62273c-38c1-4b89-a495-006a58f97f7e',
+                                                      "https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/customsign%2F12.png?alt=media&token=208f6f3a-7efb-405e-9f0d-db13664a1407",
                                                   title: 'Balık',
                                                   content: mypost['balik'],
                                                 ),
@@ -333,7 +348,20 @@ class SignCommand extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: InkWell(
-        child: Image.network(pic),
+        child: Padding(
+          padding: const EdgeInsets.all(1.0),
+          child: Container(
+            decoration: const BoxDecoration(
+              boxShadow: [
+                BoxShadow(
+                  blurRadius: 20,
+                  spreadRadius: -10,
+                ),
+              ],
+            ),
+            child: Image.network(pic),
+          ),
+        ),
         onTap: () {
           showDialog(
               context: context,

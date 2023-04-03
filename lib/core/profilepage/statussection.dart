@@ -1,11 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:fortunetell/core/languages.dart';
 import 'package:fortunetell/core/profilepage/highsign.dart';
 import 'package:fortunetell/core/profilepage/moonsign.dart';
-import 'package:fortunetell/core/profilepage/signcalculate.dart';
 import 'package:fortunetell/core/profilepage/signcommand.dart';
 import 'package:fortunetell/service/auth.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class StatusSectionPage extends StatefulWidget {
   const StatusSectionPage({Key? key}) : super(key: key);
@@ -25,6 +24,41 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
   String hour = "01";
   String minute = "00";
   double _height = 0;
+  String sign = "Koç";
+
+  String koc =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F1.png?alt=media&token=35754344-0317-47d4-96c2-740ab4571004';
+  String boga =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F2.png?alt=media&token=1821ffe7-0a85-4976-995e-12a3453ea31b';
+  String ikizler =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F3.png?alt=media&token=cc466a48-9157-4557-ac39-4150cccfb027';
+
+  String yengec =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F4.png?alt=media&token=8225c04a-410c-4742-817a-ae7c9a313230';
+
+  String aslan =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F5.png?alt=media&token=dbbb22e7-73a9-41d8-8841-687e82aeeaca';
+
+  String basak =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F6.png?alt=media&token=5397fd8c-8ecf-4f61-b4e9-5f4859db1d90';
+
+  String terazi =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F7.png?alt=media&token=2ee3bbf3-a08e-4f6b-8a78-341426385295';
+
+  String akrep =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F8.png?alt=media&token=fddf1d66-000c-462a-8183-e0d6a421af0a';
+
+  String yay =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F9.png?alt=media&token=8f713342-26a7-4f28-bfbd-3a54d21bb46f';
+
+  String oglak =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F10.png?alt=media&token=739067aa-26de-4fa1-8201-d5cf3e632c08';
+
+  String kova =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F11.png?alt=media&token=173b72de-4a65-4547-b749-d227d5537349';
+
+  String balik =
+      'https://firebasestorage.googleapis.com/v0/b/astromancygarden-30f3e.appspot.com/o/signs%2F12.png?alt=media&token=ef62273c-38c1-4b89-a495-006a58f97f7e';
 
   @override
   void initState() {
@@ -701,62 +735,66 @@ class _StatusSectionPageState extends State<StatusSectionPage> {
                               child: SingleChildScrollView(
                                 child: Column(
                                   children: [
-                                    Row(
-                                      children: [
-                                        Expanded(
-                                            flex: 1,
-                                            child: Text(
-                                              'Burç',
-                                              style: Theme.of(context)
-                                                  .textTheme
-                                                  .bodyLarge
-                                                  ?.copyWith(
-                                                    color: Colors.white,
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.black.withOpacity(0.7),
+                                        borderRadius: BorderRadius.circular(15),
+                                      ),
+                                      child: Padding(
+                                        padding: const EdgeInsets.symmetric(
+                                            vertical: 10),
+                                        child: Row(
+                                          children: [
+                                            Expanded(
+                                              child: Column(
+                                                children: [
+                                                  Text(
+                                                    'Burç',
+                                                    style:
+                                                        GoogleFonts.miltonian(
+                                                      color: Colors.white,
+                                                    ),
                                                   ),
-                                            )),
-                                        const Expanded(
-                                          flex: 2,
-                                          child: SignCalculate(),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      children: [
-                                        Expanded(
-                                            flex: 1,
-                                            child: Text(
-                                              'Ay Burcu',
-                                              style: Theme.of(context)
-                                                  .textTheme
-                                                  .bodyLarge
-                                                  ?.copyWith(
-                                                    color: Colors.white,
+                                                  Text(
+                                                    status['sign'],
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                    ),
                                                   ),
-                                            )),
-                                        const Expanded(
-                                          flex: 2,
-                                          child: MoonSign(),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      children: [
-                                        Expanded(
-                                            flex: 1,
-                                            child: Text(
-                                              'Yükselen Burç',
-                                              style: Theme.of(context)
-                                                  .textTheme
-                                                  .bodyLarge
-                                                  ?.copyWith(
-                                                    color: Colors.white,
+                                                ],
+                                              ),
+                                            ),
+                                            Expanded(
+                                              child: Column(
+                                                children: [
+                                                  Text(
+                                                    'Ay Burcu',
+                                                    style:
+                                                        GoogleFonts.miltonian(
+                                                      color: Colors.white,
+                                                    ),
                                                   ),
-                                            )),
-                                        const Expanded(
-                                          flex: 2,
-                                          child: HighSign(),
+                                                  const MoonSign(),
+                                                ],
+                                              ),
+                                            ),
+                                            Expanded(
+                                              child: Column(
+                                                children: [
+                                                  Text(
+                                                    'Yükselen Burç',
+                                                    style:
+                                                        GoogleFonts.miltonian(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                  HighSign()
+                                                ],
+                                              ),
+                                            ),
+                                          ],
                                         ),
-                                      ],
+                                      ),
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.only(top: 10),
